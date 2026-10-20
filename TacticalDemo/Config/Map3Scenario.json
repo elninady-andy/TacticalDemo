@@ -1,0 +1,16 @@
+{
+  "schemaVersion":2,
+  "scenarioName":"map3 · J20 / F35 编队",
+  "units":[
+    {"id":"RED01","modelId":"J20_Map3","type":"aircraft","side":"red","count":3,"position":{"x":24.27,"y":13.38,"z":231.54},"spacing":35,
+      "instances":[
+        {"id":"RED01_1","position":{"x":24.27,"y":13.38,"z":231.54},"yaw":0,"formation":"编队1"},
+        {"id":"RED01_2","position":{"x":24.27,"y":48.38,"z":231.54},"yaw":0,"formation":"编队1"},
+        {"id":"RED01_3","position":{"x":24.27,"y":83.38,"z":231.54},"yaw":0,"formation":"编队1"}]},
+    {"id":"BLUE01","modelId":"F35","type":"aircraft","side":"blue","count":3,"position":{"x":59.27,"y":13.38,"z":231.54},"spacing":35,
+      "instances":[
+        {"id":"BLUE01_1","position":{"x":59.27,"y":13.38,"z":231.54},"yaw":0,"formation":"编队2"},
+        {"id":"BLUE01_2","position":{"x":59.27,"y":48.38,"z":231.54},"yaw":0,"formation":"编队2"},
+        {"id":"BLUE01_3","position":{"x":59.27,"y":83.38,"z":231.54},"yaw":0,"formation":"编队2"}]}
+  ]
+}

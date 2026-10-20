@@ -1,0 +1,7 @@
+{
+  "scenarioName":"机场 · 红方J20 / 蓝方J10",
+  "units":[
+    {"id":"RED01","modelId":"J20","textureId":"1","type":"aircraft","side":"red","count":3,"position":{"x":550,"y":-515,"z":3.5744},"spacing":35},
+    {"id":"BLUE01","modelId":"J10","textureId":"1","type":"aircraft","side":"blue","count":3,"position":{"x":585,"y":-515,"z":4.0685},"spacing":35}
+  ]
+}

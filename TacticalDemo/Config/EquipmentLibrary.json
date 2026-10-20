@@ -1,0 +1,21 @@
+{
+  "defaults": {"aircraft":"aircraft_default", "vehicle":"vehicle_default", "radar":"radar_default", "target":"target_default"},
+  "sideDefaults": {"aircraft.red":"J20", "aircraft.blue":"J10"},
+  "sideColors": {"red":"FF241C", "blue":"0A4DFF"},
+  "models": {
+    "J20_Map3": {"type":"aircraft", "kind":"staticMesh", "asset":"/Game/plane/J20_Map3/mesh/SM_J20_Map3.SM_J20_Map3", "scale":1, "preserveMaterials":true},
+    "F35": {"type":"aircraft", "kind":"staticMesh", "asset":"/Game/plane/F35/mesh/SM_F35.SM_F35", "scale":1, "preserveMaterials":true},
+    "J20": {"type":"aircraft", "kind":"staticMesh", "asset":"/Game/plane/J20/mesh/J20S.J20S", "scale":1, "preserveMaterials":true,
+      "textureMaterial":"/Game/plane/J20/materials/M_J20_TextureSwitch.M_J20_TextureSwitch", "textureSlot":0,
+      "textures":{"1":"/Game/plane/J20/texture/mat_J20_Airframe_Diffuse.mat_J20_Airframe_Diffuse","2":"/Game/plane/J20/texture/mat_J20_Airframe_Diffuse2.mat_J20_Airframe_Diffuse2"}},
+    "J10": {"type":"aircraft", "kind":"staticMesh", "asset":"/Game/plane/J10/mesh/J10B.J10B", "scale":1, "preserveMaterials":true,
+      "textureMaterial":"/Game/plane/J10/materials/M_J10_TextureSwitch.M_J10_TextureSwitch", "textureSlot":0,
+      "textures":{"1":"/Game/plane/J10/texture/j10b_d.j10b_d","2":"/Game/plane/J10/texture/j10b_d2.j10b_d2"}},
+    "aircraft_default": {"type":"aircraft", "kind":"staticMesh", "asset":"/Engine/BasicShapes/Cone.Cone"},
+    "aircraft_red_basic": {"type":"aircraft", "kind":"staticMesh", "asset":"/Engine/BasicShapes/Cone.Cone"},
+    "aircraft_blue_basic": {"type":"aircraft", "kind":"staticMesh", "asset":"/Engine/BasicShapes/Cube.Cube"},
+    "vehicle_default": {"type":"vehicle", "kind":"staticMesh", "asset":"/Engine/BasicShapes/Cube.Cube"},
+    "radar_default": {"type":"radar", "kind":"staticMesh", "asset":"/Engine/BasicShapes/Cylinder.Cylinder"},
+    "target_default": {"type":"target", "kind":"staticMesh", "asset":"/Engine/BasicShapes/Sphere.Sphere"}
+  }
+}

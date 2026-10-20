@@ -1,0 +1,3806 @@
+{
+  "kind": "github-source-project",
+  "note": "Requires Git LFS assets and UE 5.3.2; model weights, generated binaries and personal scenarios are excluded.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 304,
+      "sha256": "8dafff48b3e28fd9f70b5cfadb55405c36a2f8a029735610acb2af946ba26019"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 642,
+      "sha256": "2b25ebaedc04aa9de4c64ac62360ad4f8d1518afb4142a680471726860758237"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 917,
+      "sha256": "8e8f122fb75d1efc1d7a67218512c45a2d57ec743e5cb130e906789ecab81b98"
+    },
+    {
+      "path": "CreateCurrentManifest.py",
+      "bytes": 2423,
+      "sha256": "4e75441210d5f1f84295ca3dce3ccae9fc1e298ae549a6d2b15fff9bd838de3a"
+    },
+    {
+      "path": "CreateRepositoryManifest.py",
+      "bytes": 1384,
+      "sha256": "c7fd7868de739376673f08195f88a7942775fca0980c23952bfeedbc446efb84"
+    },
+    {
+      "path": "LocalPaths.example.json",
+      "bytes": 70,
+      "sha256": "53be5bd06d679bc08a8b6eac1a31a2efcee82894fd3d73cf2d2b1b3d25f55703"
+    },
+    {
+      "path": "MIGRATION.md",
+      "bytes": 5139,
+      "sha256": "368f03d81d01edd68ce426a0f5ffce0dd8d2b2c50c05e82343ed3979cb8058f0"
+    },
+    {
+      "path": "PROJECT_FRAMEWORK.md",
+      "bytes": 6771,
+      "sha256": "fe83bbc431c1fdd38f242c664d4ccb1e0b491edce1a0db2f6c2f720fe3c4aee4"
+    },
+    {
+      "path": "PROJECT_MAP.md",
+      "bytes": 4994,
+      "sha256": "39c5c971e5150c7836a359af45a5d0f33c293b6e2ca2f54ce8131413aa343801"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 53434,
+      "sha256": "f75bc3e9ce351c45ec4566f2dcd20bb568d236ab625de78a44e838ac53819fc6"
+    },
+    {
+      "path": "QwenRuntime/PYTHON_VERSION.txt",
+      "bytes": 61,
+      "sha256": "1081824adb6715d89560a38c784caf42bdb5980bc48dc4d66f1dc5d36d1c2aec"
+    },
+    {
+      "path": "QwenRuntime/qwen_local_server.py",
+      "bytes": 6723,
+      "sha256": "57232d098b5ce11185cd751d14704ffa7f2b766ce30846c682eff4bffc9bbacd"
+    },
+    {
+      "path": "QwenRuntime/requirements-lock.txt",
+      "bytes": 608,
+      "sha256": "1e3e233e77a4bfde6ea3fe3bac694d60f932fd09b9e2acc440a31e7b37ab92f8"
+    },
+    {
+      "path": "QwenRuntime/test_server.py",
+      "bytes": 5976,
+      "sha256": "8787105a5b7e319bdd54564fee6335390162fa672df60bbf41263fe7d2bc0865"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4280,
+      "sha256": "e279c19175e2064bf90684ead90e5b3bd4ebbd4160cc4b2d2f2cb633b6db0935"
+    },
+    {
+      "path": "ResourceIndex/AssetIndex.csv",
+      "bytes": 186348,
+      "sha256": "b20319d1ac7a98461849f57f12ccb8e36aea5a59ea39b38b04e3fbd15d05b9a6"
+    },
+    {
+      "path": "ResourceIndex/AssetIndex.json",
+      "bytes": 459474,
+      "sha256": "0e5f1dfcecf64779ea79e6ca522fb7919bd582a3c9a1ca0bc45469473e159a41"
+    },
+    {
+      "path": "ResourceIndex/MAP_RESOURCES.md",
+      "bytes": 118373,
+      "sha256": "0f1a372aa258dc0a8317b1bdd96cc0fd36806a609fa80aafc8ce6a467d249056"
+    },
+    {
+      "path": "ResourceIndex/Map3ChangeManifest.json",
+      "bytes": 6782,
+      "sha256": "3cbac5c2af2c8d74052027211cbd9732bbb32e7d84ab02dc6e8b4ea9f21796e8"
+    },
+    {
+      "path": "ResourceIndex/MissingDependencies.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2319,
+      "sha256": "4fda7b32678e92dba5d4456d9c84bd7533b4de8236e9ca9c4097bb499b9a3a0a"
+    },
+    {
+      "path": "TacticalDemo/.gitignore",
+      "bytes": 68,
+      "sha256": "db58f6a33cd1016f996861cbfd98fe3af8440f9314f57d71160e65ea331eaa17"
+    },
+    {
+      "path": "TacticalDemo/.vsconfig",
+      "bytes": 494,
+      "sha256": "3d82845b510326afb1d3c11b78511215a7c5b6528afeecfeaee10a39309b114c"
+    },
+    {
+      "path": "TacticalDemo/Config/AirportScenario.json",
+      "bytes": 367,
+      "sha256": "fff2bcd31162e27a8b52fff362c971aefaf9c39a256964b623749c9372db7cee"
+    },
+    {
+      "path": "TacticalDemo/Config/DefaultEditor.ini",
+      "bytes": 49,
+      "sha256": "a3784da9c22ca6eb450f881e5140c8bfb6845be3f3f133033937ce8c455c052f"
+    },
+    {
+      "path": "TacticalDemo/Config/DefaultEngine.ini",
+      "bytes": 812,
+      "sha256": "676abe58cdfe10a598224d1d990064d00eac1405c04adef2c5c765e6bd791c26"
+    },
+    {
+      "path": "TacticalDemo/Config/DefaultGame.ini",
+      "bytes": 263,
+      "sha256": "93126cfca5464ba5c3023419b3ba5d33f3df655a9fb0a0883f6b5703db800f3f"
+    },
+    {
+      "path": "TacticalDemo/Config/DefaultInput.ini",
+      "bytes": 9102,
+      "sha256": "b3803838878714fa53454fab854333b0eefce223672864e65ee1cb9904cb1706"
+    },
+    {
+      "path": "TacticalDemo/Config/EquipmentLibrary.json",
+      "bytes": 1980,
+      "sha256": "ea3e84b7f0a33bcc13f27a3a96dbf8c26d9bc9398d55a6c15f6285eb79512104"
+    },
+    {
+      "path": "TacticalDemo/Config/Map3FlightPaths.json",
+      "bytes": 59892,
+      "sha256": "6422dafbd0f2120bf5df9edd21fb4d3ee1dcdeae7e36adc3972ac21e7687ee2b"
+    },
+    {
+      "path": "TacticalDemo/Config/Map3Scenario.json",
+      "bytes": 1005,
+      "sha256": "4470891fd2da2188eb4fd928f09e65a692b4627a173d0005a201c2d555c259e3"
+    },
+    {
+      "path": "TacticalDemo/Config/Qwen.json",
+      "bytes": 81,
+      "sha256": "c2c39f974c288ec795c8c96c3a13edb54099b92591951ec3c5e5f3aa9633d8ef"
+    },
+    {
+      "path": "TacticalDemo/Config/Scenario.json",
+      "bytes": 832,
+      "sha256": "a1d4d1496d815a2e2c53688160bf8b91c4f6c5ee079703644a5e72438562fc71"
+    },
+    {
+      "path": "TacticalDemo/Config/SceneLibrary.json",
+      "bytes": 258,
+      "sha256": "5b0f6878fa2a7282c85d93e9cd80e17e0993d22c8ae8bf1b7be3c2da20bbb141"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/04_-_Default04.uasset",
+      "bytes": 9804,
+      "sha256": "51e21d046522b4eab6e8b06494ef867da12f999d06189da706ff533a310a504c"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/05_-_Default.uasset",
+      "bytes": 10939,
+      "sha256": "e9fd95a252f2a171c3328863e65e16329e6973ab5cabb46a74e39530c9843f2a"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/09_-_Default.uasset",
+      "bytes": 9003,
+      "sha256": "47632b64f740e341d1fca515f17c39ec7f2f6b4c208a05bde9f5ffa8fde553d7"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/0b9e2f89_dds.uasset",
+      "bytes": 13823,
+      "sha256": "1c1db03fced81d5273e131ef228959c4b8faf0961548b873ed7d20a0c46e9d9a"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/11_-_Default.uasset",
+      "bytes": 13393,
+      "sha256": "ba607723879e3fba7c75d9a4cd8f5c64b48ee4a82de0f9559d9a693530242426"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/62712633_dds.uasset",
+      "bytes": 10691,
+      "sha256": "37f18b3ea28958a8c700d4bb29833929b8651a890c99f848d8898d46d328d777"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/J20S_Cop.uasset",
+      "bytes": 9223,
+      "sha256": "25dbf8987e5ceeb75c919179c8a03b15caada358b116127258a4c7da417c12b7"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/J20S_LandGear.uasset",
+      "bytes": 11568,
+      "sha256": "5740cae0ace1cf8431be60e3f636d8198cab52e23fffd7332374861b7f90e943"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/J20_AirFrame.uasset",
+      "bytes": 14036,
+      "sha256": "48b9fd17e1afaa16f14e4e2cbe109bc92dd452af7d84725954bc1f374017df6f"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/J20_glass.uasset",
+      "bytes": 10108,
+      "sha256": "79ac7eb8c95a753f6b38498eb2fb14c6b2868769bd55e1fb4f3d1aaa426dd5e9"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/J35_Cop_Seat.uasset",
+      "bytes": 10318,
+      "sha256": "812f91d956e21691e8b008be78fe7223fe1509520c560de5de1551287fa28bd5"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/PL10_hull.uasset",
+      "bytes": 10937,
+      "sha256": "d2c3672d284ba92e83aeebb5068b24ec4a5ae3e5f5c638dea1bd40cde0080451"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/lu-aer.uasset",
+      "bytes": 16230,
+      "sha256": "d09c3249a86f387455638e1dbfb8cfd22b35357d24a8849b81c9560f0a55ac6e"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Materials/lu-aer_Inst.uasset",
+      "bytes": 10533,
+      "sha256": "2b67dec2814d0e04e528415abea6ee104b8ce4cf73ac9cfbdbf5a8e714b65c16"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/0b9e2f89.uasset",
+      "bytes": 186755,
+      "sha256": "8772f7be073da6daa25418e1d8eccf9c8a93000bb688897b771fe4b1b1c4257d"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/62712633_2.uasset",
+      "bytes": 24917,
+      "sha256": "a7846814f9b9679f36a6955e65e6a5b0b56e998fe864a2e0b17d7121eea0b320"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/Mountain_heightmap.uasset",
+      "bytes": 3495247,
+      "sha256": "6bde1c9506130158911d77ff4feff8d4f03c42b2ef1fa0d4e8e954ca5e2d0adf"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/Mountain_heightmap_displacement.uasset",
+      "bytes": 540696,
+      "sha256": "39480742b26964b71335b6aa3f567fd9d3a03f58b4a21ba4e2cd58a246b2195e"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/Mountain_heightmap_normal.uasset",
+      "bytes": 2340897,
+      "sha256": "7bd423e25d6866833f184ebf7a062d1077013a63d892b2675a46a026888f4420"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/PL10_hull_Diffuse.uasset",
+      "bytes": 3469981,
+      "sha256": "36323f95500d69e5f30a411906b24bc9f8c9c7b7aa84a68ecffc10612fe96651"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/PL15_hull01.uasset",
+      "bytes": 11300,
+      "sha256": "1139c098aca5aefca79d38c5a96bf2c5302b1589ec3c8b45f481a45d0846695d"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/PL15_hull_BaseColor.uasset",
+      "bytes": 2218109,
+      "sha256": "58c87ba10e90c8811e1bf28621829af2618aa402182b8e0fc695fec64261b504"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/TX_J20S_Cop_Diffuse01.uasset",
+      "bytes": 1249250,
+      "sha256": "0b7fb75caf6dc8639a5ba290f2637d7c94eaa0e0090f2ee0b133bfecb273e9a2"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/TX_J20S_LandGear_Diffuse_ncl1_1.uasset",
+      "bytes": 10304726,
+      "sha256": "f1e0022628bffb23e90392059181c369d9e51c5294714bdac5d7f8ffd83dc6f1"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/TX_J35_Cop_Seat_BaseColor.uasset",
+      "bytes": 14862548,
+      "sha256": "a301d98011c4a121e59c8aa646e3a4a6b3a351cc262184814e533379c3f55067"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/lu2-ae_拷贝.uasset",
+      "bytes": 45132364,
+      "sha256": "57822cff5d76eb66ff5415436ef5472e262fe21d84e860239894845656e10cb9"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/mat_J20_Airframe_Diffuse.uasset",
+      "bytes": 49379749,
+      "sha256": "eb31e86608a0b7f8eda3af5191e375fdfef8719a7729f24ea455863f245b585a"
+    },
+    {
+      "path": "TacticalDemo/Content/Airfight/Textures/mat_J20_Airframe_Normal.uasset",
+      "bytes": 41460991,
+      "sha256": "04fb58835aa839dde0e9f784da847a4b2d30b8d99c869532264816e37996808a"
+    },
+    {
+      "path": "TacticalDemo/Content/Fab/Megascans/Plants/European_Spindle_wk1ncbxja/Medium/T_wk1ncbxja_2K_Billboard_B-O.uasset",
+      "bytes": 6641721,
+      "sha256": "36d93739d5c1e69824d3e60f8b5cf67be75bb89a92d5535804c7c4b6afeff61a"
+    },
+    {
+      "path": "TacticalDemo/Content/Fab/Megascans/Plants/European_Spindle_wk1ncbxja/Medium/T_wk1ncbxja_2K_Billboard_N-T.uasset",
+      "bytes": 8328203,
+      "sha256": "f18e02727bb4e31e776b581f27b3d8514eb0723927093407a425125554ae6db6"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Airport_Object905.uasset",
+      "bytes": 127153,
+      "sha256": "5c9b4e83f26d26e7bfb4b83d37534ebfc60da46b965fb1d90e71f8b093161552"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Airport_Object906.uasset",
+      "bytes": 127111,
+      "sha256": "45e047aaf6b6d753492cbe09a2fc730b0dc1ea2afb4a6e65b951d13aa29f4a59"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Airport_Object907.uasset",
+      "bytes": 127044,
+      "sha256": "f0c9d2f0f6a5e6c747105f10157abaf76b667c6c60d5ed43711b7339ecf5c3b6"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Landscape1.uasset",
+      "bytes": 561327,
+      "sha256": "5eeee396ce8a8034ebb959ad6e6cb8f80437506af3c0c1a31a99542ef0c1ce50"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Mountain.uasset",
+      "bytes": 8912462,
+      "sha256": "49359d7a576304b2a26665e4f23e9edb362dcecdc6841131ed11bb471844597f"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Box008_4.uasset",
+      "bytes": 56517,
+      "sha256": "d0b430fd6cd43bfb19fb93c770767100de0e2e5167ce43f4d5195c8d9d9120b9"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Object997.uasset",
+      "bytes": 25670,
+      "sha256": "680bcbfcb140e3e5bed057b28a804fd23094107562bff35f53f16df57d062acb"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Object998.uasset",
+      "bytes": 25654,
+      "sha256": "b4fbc3207d1d2ab1be14467c81a08b78fe2336c1240cfe861a150372a3992459"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Object999.uasset",
+      "bytes": 25666,
+      "sha256": "eacafe7f6f202a4c36d2756cea8f2e396c76c4d5ca4855bc437b98e78060322d"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Materials/M_Map3Terrain.uasset",
+      "bytes": 4312,
+      "sha256": "06e2632c7a3a7c17b3b87f349f7ae13ccd17ada9383ae211195b30789e6ea59d"
+    },
+    {
+      "path": "TacticalDemo/Content/Maps/Demo.umap",
+      "bytes": 11617,
+      "sha256": "894d5da5b50b19103933c04b0940698c07331c708474d970b0b46f8bc2d62300"
+    },
+    {
+      "path": "TacticalDemo/Content/Maps/map3.fbx",
+      "bytes": 170542272,
+      "sha256": "1cb5593c8576b2afb837688dba59d65268d3dd02a904042677b8ca1f66d7d281"
+    },
+    {
+      "path": "TacticalDemo/Content/Maps/map3.umap",
+      "bytes": 144753,
+      "sha256": "769c2facc08665c2675c6e1df19faddfaaff9dff858a978e770f5601436e9a5a"
+    },
+    {
+      "path": "TacticalDemo/Content/Materials/M_AircraftHighlight.uasset",
+      "bytes": 6355,
+      "sha256": "171707d7b4e63e6e5a3445cf42b466ea75ab88d806198251ffc027b97b038464"
+    },
+    {
+      "path": "TacticalDemo/Content/Materials/M_Ground.uasset",
+      "bytes": 5770,
+      "sha256": "95241ba21ca25d0b60fc4160953064cfcaf9ebf99a3dc09c70568d8fa323d397"
+    },
+    {
+      "path": "TacticalDemo/Content/Materials/M_Unit.uasset",
+      "bytes": 5758,
+      "sha256": "4961e512ad5610c62ae370e33b19fcf894cf54951cc2d38bb6b53149738dfaf2"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/CurveAtlas_SoftOutline.uasset",
+      "bytes": 7022,
+      "sha256": "c30174a71193c50afceb08da1335dd55616ee14bf8ecc661d18fb1cbe7e58d60"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/Curve_Default.uasset",
+      "bytes": 3649,
+      "sha256": "001509208c3257ba46016f9f2840a00efbd083e46fd5270e5d42510d38c1906a"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/Curve_Hollow.uasset",
+      "bytes": 4773,
+      "sha256": "3fd22fd3265904e6a57128cd2fbcef51e99e79c41ecb63f28b8a4e61c09d4b6a"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/Curve_Hollow_Double.uasset",
+      "bytes": 4854,
+      "sha256": "d10185f145b7c8e9484520b2915e800da6cc31e77152b98ae26a0e83f10b41c8"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/Curve_RedHot.uasset",
+      "bytes": 5445,
+      "sha256": "8c9d6060834fd895a1241bbf8b1c73a697de1e153f2e4d8d54e691c87c87583d"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/Curve_Salmon.uasset",
+      "bytes": 4501,
+      "sha256": "843af1bb49832a483662b3a55b76d7ba0ede6bb442a525c7a173d09ae1b5bb2f"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/Curve_Thermal_Ironbow.uasset",
+      "bytes": 4818,
+      "sha256": "bf3ab0ac259823bc8df8f4b3c0a26376ccb1663914a4a2a68492517eb692ed53"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/Curves/Curve_Thermal_Rainbow.uasset",
+      "bytes": 5102,
+      "sha256": "18e54acbc2da839e6f62a0739d020dc727cc3c7ff90bbb73a099638a6e0875a8"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/SoftOutline.uasset",
+      "bytes": 227795,
+      "sha256": "66f938cd59555c07f269a882a47f0caec0e7df6bd236448a5f2e8febcaba631b"
+    },
+    {
+      "path": "TacticalDemo/Content/SoftOutline/SoftOutline/Styles/SoftOutline_Molten.uasset",
+      "bytes": 1579,
+      "sha256": "e9e5d1cd68c64858fe650e90a371c8c4b42f19f081f921e369c5bb440ec3776c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Blueprints/BP_TEST.uasset",
+      "bytes": 36427,
+      "sha256": "18aed96f6f29a26a79fa279e485501043ff24278493d266084c1a364f73b99bc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Blueprints/J20S.uasset",
+      "bytes": 90968,
+      "sha256": "8783141d7aae430f08a27842f7837ff59a2b2241cb26a6fc59833c23301c6d5b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Box002.uasset",
+      "bytes": 251787,
+      "sha256": "f45945c96430179804ac1f120dd24c1349920398fb703a8c977c947f13eb2c14"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Box002_003.uasset",
+      "bytes": 155725,
+      "sha256": "f09c0f54d82f02ca0b5374c09b25fce60f97d573dfc02f6ceef0f38ad8be8f02"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Box008_002.uasset",
+      "bytes": 70765,
+      "sha256": "ea9802b4c4898a2cd220b1da2936234732093154502bf57bc9c88d9bf43eede6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Box014.uasset",
+      "bytes": 22102624,
+      "sha256": "e4835c2f16e925fc55746a82eac40fa4025a413c726bfc06456d170c6c926790"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Box015.uasset",
+      "bytes": 37439,
+      "sha256": "b0c73cd34210dde3f9cfeb2c55fc9237c1ac0ca6abc6bf4c0995f1c908cbb173"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Box034.uasset",
+      "bytes": 414303,
+      "sha256": "36d9cf5327bd30e5a1beb135604255a6d3f354bae6cf7fdcbfc73dd17179b8b3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Box041.uasset",
+      "bytes": 209409,
+      "sha256": "18fde17dbeadd2c8d8ca9f327f45b5560b7e8a805acd7ef6758bcb8b1b1bbfb7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Circle037.uasset",
+      "bytes": 239671,
+      "sha256": "ed6514c5d21bfa8988437d8063c37e71dfddeacb5c4871447b06cc76e79a4e27"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Circle038.uasset",
+      "bytes": 239609,
+      "sha256": "3e102dce54f0dc64bb5678683be34f70cee242dd744952ec4028c2f88a6a84b6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Circle040.uasset",
+      "bytes": 239526,
+      "sha256": "a9e7746a57ce4d7fb39b6612ab29d8ef833d18c3d4e55d950a3de713d6c472eb"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Circle041.uasset",
+      "bytes": 239760,
+      "sha256": "63d7681ebf23e5840e439b93ebf3893abe1951cd2d3677f906e2c432ce9fc5f8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_DrawCall_0008.uasset",
+      "bytes": 96152,
+      "sha256": "06f21b926728d21b568a7892bf60217a1c62c01b3ff17e6123d79710bea86563"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Line002.uasset",
+      "bytes": 31676,
+      "sha256": "4837d1231daaab184a6ce9a84e82bccc351c2b330d2ce52d12489cf102562c8a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Line007.uasset",
+      "bytes": 83650,
+      "sha256": "af0819e6e3cd7a080ce631f81019a8bd4dd3cf316bd35db6cf24ee3cd815e6b5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Line012.uasset",
+      "bytes": 83623,
+      "sha256": "b642da8a9d32f58badf6eba1160121bf8e7c15741fdf3b477a91d789d00b0fd3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object001_005.uasset",
+      "bytes": 90524,
+      "sha256": "e762e730ccfdd58b81d8c284df0abf8c396f4c817c011aa3a2b6ce3d298026ee"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object001_010.uasset",
+      "bytes": 182310,
+      "sha256": "71dd9861e258d5b665fe8cbd5030ed47d4b75ee523b70e008d702d8790e90a10"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object001_012.uasset",
+      "bytes": 145233,
+      "sha256": "b5fbe3ff9e7bc3ed320288b535fd90c674b699dd311ba05018ade937af95fda3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object001_077.uasset",
+      "bytes": 145630,
+      "sha256": "d34e60e90354ff8033a69d1e29ab6aa661c2853602ee774a214116f322a1264d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object001_084.uasset",
+      "bytes": 144011,
+      "sha256": "aa7fbb441f1d501a8ff2fd8a9d0847dbfddebd9662898f09e83e1278e90d9ad9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object001_098.uasset",
+      "bytes": 143934,
+      "sha256": "a848666036b370125f4eb8d9313dd611fbaf2fc34bbcaa961367aaa2ba0bb222"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object006.uasset",
+      "bytes": 965184,
+      "sha256": "5d3a6547bf3e1b1556d0930ec60cc088bd03af58ec32f298c82911505332522e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object010_003.uasset",
+      "bytes": 372395,
+      "sha256": "56047b15ed2d26e97b9246db7b5bbcaea2c0f24061bf0800d3ffc79c5c220256"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object070.uasset",
+      "bytes": 406240,
+      "sha256": "f7427d163564eb679ad7905caf21cfb44b8495831781bcd92bfda2fe5dd4e3e9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object130.uasset",
+      "bytes": 159109,
+      "sha256": "e525e6e9bc9fa5f330935ca2a6535eb01fe6287868732137eabf97d126f6b8a0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object134.uasset",
+      "bytes": 24988,
+      "sha256": "04aeb1f6abb36a60fc2994f7df561ac61b32377107f8be8f99a729bc4c1ebc4a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object135.uasset",
+      "bytes": 33111,
+      "sha256": "0675138d5ecc41395d4402d2540c7a2bdf0c30202894f89bfd7a707ac685cffe"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object139.uasset",
+      "bytes": 52894,
+      "sha256": "7681888138aba27808b62a494f76ec0b0a874744baf92ec4d1083aff53cef000"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object140.uasset",
+      "bytes": 33127,
+      "sha256": "881c53797757f4527728f6168a58efa799184f9292df1f165dff97a95c760558"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object151.uasset",
+      "bytes": 154874,
+      "sha256": "37b5192ec899e04f801ebac122e23cac0f907bb6c1906d519bef529a3f324d47"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object171.uasset",
+      "bytes": 28644,
+      "sha256": "4e1003d3549e32cbdb2c933cee3b286af00c97cf0955c915b33364aaac17882f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object175.uasset",
+      "bytes": 151487,
+      "sha256": "62ff3c99c9931d5d98105ce232a50b2ac86020cc4d0f550d1ebf2a5c21371046"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object181.uasset",
+      "bytes": 152019,
+      "sha256": "2485b3c500baba88e9717f5a81e44aa955a16abf30013cf846c9876d7590baee"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object854.uasset",
+      "bytes": 40068,
+      "sha256": "d5f822c15df07c03d1f169932bf3a7ec5a7531ded5ecafd8731b226aeeb6488c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object864.uasset",
+      "bytes": 407808,
+      "sha256": "a4cd33e93341ea759785c491e49a9b264bbfaa10891cf6db1d144d7e2499c709"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object884.uasset",
+      "bytes": 412832,
+      "sha256": "3a2eab80b7f85b29021d71b1b3745dcc30ae2c5216b67067f348a9204b942552"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object904.uasset",
+      "bytes": 163763,
+      "sha256": "b8b1e52e6fc97df8e753041d54af2ef389dc0d23d52e54b2ee73a5e983976cab"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object925.uasset",
+      "bytes": 852395,
+      "sha256": "2b4d4f84efad782b655a75b1ba4da6ac3efdd3cd20c9edfa3a84e5a992c06793"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object930.uasset",
+      "bytes": 79354,
+      "sha256": "9ef489dff49859337af91725c52a61f3768cdf29ee2f3737dcebaedfbfd4c97b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object940.uasset",
+      "bytes": 966637,
+      "sha256": "24b3fa5b4f2c0feffe4adf81825ad804ff3a80db0c7f03255da3885614591547"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object987.uasset",
+      "bytes": 79479,
+      "sha256": "0ab4b2f53f85eabca401d86d52f0decdf3b14d6d1c81ab6d5edd97c8d186c9a8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object988.uasset",
+      "bytes": 79464,
+      "sha256": "707d5ca7739b0e7bd3bfd9aedee60218171b6c3c3afd3ff0c4c0428ae219ddf5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Object989.uasset",
+      "bytes": 159245,
+      "sha256": "7927a5ad891f63dcfd7de1dbd46f77836b04f975ed4c1ac5bab03d948687b13d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Plane006.uasset",
+      "bytes": 41245718,
+      "sha256": "a23c444f6f4fb98128b993e2c5648e3fd756779c99eb74c383f657c9fe9d05da"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Plane017.uasset",
+      "bytes": 53867,
+      "sha256": "1531e23a12214c45f1262d40d9f11cc0c04c46ae93b735debf4544f162181683"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Shape028.uasset",
+      "bytes": 801901,
+      "sha256": "70491f44fb3256ac45bbe51036233a39898bc4bf6ded08f596e76791782569af"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Shape065.uasset",
+      "bytes": 53315,
+      "sha256": "24c7079bc4b98e1f25d45f034e27d6c43d3e19ae5ed42a6e07af232695be7f26"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Shape085.uasset",
+      "bytes": 53315,
+      "sha256": "437ee40d0464754bbf1a0b4ba4427566ee119189880bd2461bd75213dfcc276d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Shape086.uasset",
+      "bytes": 802193,
+      "sha256": "49df5b9f23718191cf79ce121f5017fddbfe78a1a60918265aa6bdd1a99119d1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Shape087.uasset",
+      "bytes": 802089,
+      "sha256": "f52cae3ead0e778f260578bce8198e8094804b32cd62fa1419ac690bf0162391"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Shape088.uasset",
+      "bytes": 801890,
+      "sha256": "9322392007ceb2236ea6afe8bbb79c18e3ef7951eb29b424e89ad9ba167b7a18"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Sphere004_007.uasset",
+      "bytes": 136280,
+      "sha256": "5883f21ba674f3289da77f6b305c032fad2a09cb3c21f63940498321e45ab815"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Sphere013.uasset",
+      "bytes": 53516,
+      "sha256": "7c6e1e873907f6af108eb149af2a95a616398d7d589f8f61a6aae77f583dc691"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Sphere015_003.uasset",
+      "bytes": 169069,
+      "sha256": "ef2caade8fbb1268022d9671c70e1024036a803f691deb1e33190ba75c42566b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Sphere015_007.uasset",
+      "bytes": 168602,
+      "sha256": "1b7d28de445dac490649fb8da6ad0ce30d92ea2e8400110ac642f3362af91676"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Sphere015_012.uasset",
+      "bytes": 168614,
+      "sha256": "41ee23f9ec3609ef5b94fa72e5f4ba0def7f65e5fe3fea87d811968ec78829ce"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Sphere015_022.uasset",
+      "bytes": 168587,
+      "sha256": "cfff4e322ccd9de0f1274dbe84358a3dd133b08c46a433d2776ae8f1a32bb94f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_Sphere015_023.uasset",
+      "bytes": 104942,
+      "sha256": "54e7e2493f96222f746b6c6274a54a7b7249371b2cc99def8411172e4782ce87"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Airport_对象003.uasset",
+      "bytes": 216676,
+      "sha256": "5ab26885ed3f462c53872e2574a145bf3530df3b54dd586eead4e22189b7908e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_AOACalibration.uasset",
+      "bytes": 20548,
+      "sha256": "9ec7c245038a1407056812f7a75afe351c908b32a438e7c7564ad663ebde5ec0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_AOALimiterOverride.uasset",
+      "bytes": 16468,
+      "sha256": "c68719f4089dd3091a1e914cd6cc221c805e395826bafc92d5c18f62f814ba8b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_AOASilence.uasset",
+      "bytes": 15881,
+      "sha256": "f1f19cc038fd337f98101a1acfcb33a728b3faa0bb09b0b4495a22a4ac249e9b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_AfterburnerDetent.uasset",
+      "bytes": 27427,
+      "sha256": "f94ab0565b14005cecb4919cf4baf610eff38d0964480a68a1e9d58d2e637113"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_ControlSurfaceUnlock.uasset",
+      "bytes": 15957,
+      "sha256": "61672115b0f097ddf038d729ed6b0348445f3067073cb457fb3b109e528191db"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_Control_Priority_Transfer.uasset",
+      "bytes": 15941,
+      "sha256": "370bd6e7e08137c8982d2c66e73fd44884fe4e44e8078de6d7555f1cfc033ab5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_FCS_BuiltIn_Test.uasset",
+      "bytes": 15900,
+      "sha256": "239028f97cc594225568fab0b1055a76717edf9cf5bc9606c17f3516d40e36f3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_FlightControl.uasset",
+      "bytes": 15848,
+      "sha256": "e32686a790626be1f0ad74ac0ea30af74cbf079e376ec93455d560c6b3c0aeab"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_StabilityAugmentation.uasset",
+      "bytes": 15962,
+      "sha256": "f0c9bbeb0f336e3b17d0fda75d56280e254e6bd623ed4c101ee0902791b5f65f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_I_WeaponButton.uasset",
+      "bytes": 18274,
+      "sha256": "89b060ac57fb53e0a154afa8fc3114a734dd42672433fca41ab692dcfdb37ac1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_J20S_jishen02.uasset",
+      "bytes": 3202208,
+      "sha256": "9b1100811c5689c329517722c0814820d7c01d15dcca6674d8de63c394ce4e51"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/J20S_gai.uasset",
+      "bytes": 265763,
+      "sha256": "ecb01d8350154090544e8945f69232001f71f8bf6f9ae27f9a71b1ca45c4e643"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/Ladder.uasset",
+      "bytes": 184441,
+      "sha256": "ca5585b357c9e5a122eada7827a50f6e8f92a080675f9d89f8a157e684f72e64"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/SM_wk1ncbxja_VarJ.uasset",
+      "bytes": 1216077,
+      "sha256": "300b9c5983ea3b519494272b9bba1028e2f8392fde09909c3f776c3c6cef522c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Box008_003.uasset",
+      "bytes": 69810,
+      "sha256": "b17de189fc3c7371fe2572ddc57f1620adff047fe6e0f4bff61f1ac8dbd1c9d7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Box042.uasset",
+      "bytes": 16269,
+      "sha256": "3180ef2cf143124b9436417071fa4721eb9bbb7db231f2699da0cdc0348521a9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Object993.uasset",
+      "bytes": 31282,
+      "sha256": "0ae269b4af4909b2305b04888af29322f66e7b9f9e855ae89151a0c39d84997b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Object994.uasset",
+      "bytes": 27415,
+      "sha256": "b0ba8029e38f9f297b99e5d0064889d674f79c04cc9502aafdb9041042c8b75a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Object995.uasset",
+      "bytes": 150547,
+      "sha256": "d07d9d5997063542864723ea20209f143687ceab21cec65e21cd98ec71288c8f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Object996.uasset",
+      "bytes": 150511,
+      "sha256": "82d9083ed8b754762b882c430ae22cf4d9cd95cde29267d31bef8d515913d946"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Shape089.uasset",
+      "bytes": 778800,
+      "sha256": "e3e5640aa9dfaeaac4a59c3bdd13c54df3c471cd3ad345c28bbc6caf1f6e17ae"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Shape090.uasset",
+      "bytes": 802417,
+      "sha256": "b5fe0db0dab9865ef4fac5467afaaeb340833ab0f1e44489b07fc964317045ed"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Shape091.uasset",
+      "bytes": 802344,
+      "sha256": "50d9b7b2453c17118fe5ebfd8291e5ea1f3be10496b698edf62a7cea37e3ac34"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_Shape092.uasset",
+      "bytes": 802160,
+      "sha256": "12263af96079e4653161d5ef7188302b6d27997a896aa71e47e3acb26bcc7bdc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_对象006.uasset",
+      "bytes": 15261,
+      "sha256": "42f66c2cbcf017e8f3d1a79d54984bea44f31f184002529d3993fc0dc843d2f5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_对象009.uasset",
+      "bytes": 15967,
+      "sha256": "531195e3e91a4b81ff159321764b93cca28299e5d9e1bb63932e4c2f34ba566d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_对象010.uasset",
+      "bytes": 15958,
+      "sha256": "7206a277a98c707314d0969083495e02a377c9c6c9b21eabbef5bbb6ed67a449"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_对象011.uasset",
+      "bytes": 15949,
+      "sha256": "1768e0115830958e928e337fcc6e9792d6c359e0a71a6615201b2e65136102fd"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_对象012.uasset",
+      "bytes": 15939,
+      "sha256": "f57ee42d7d34f80547a21d87c0183d71e37a34eae03d7b1e6cc41c3b28a03ce6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/bighouse_对象015.uasset",
+      "bytes": 14748,
+      "sha256": "e82133d8bf5195c447089203a6fc2ec796e57cb73f35965fe345293c6f5f00a0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/paodao.uasset",
+      "bytes": 2330188,
+      "sha256": "2247a1224b9e01688c86ea4322c2fc2b9ce14a4b4acc197fb045b313d2b9bb77"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_1377.uasset",
+      "bytes": 1790002,
+      "sha256": "8bd66d1e7038fa444c59be7700e217ea07cad38ef47372fdbfc6b6651e9a6ee8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_4301.uasset",
+      "bytes": 1789704,
+      "sha256": "34612fa5d4481bed8e368511eca2e2cc0aaa6c7229ae01e03fceb5ede7a6d795"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_4302.uasset",
+      "bytes": 1789897,
+      "sha256": "60ca68f4a46d48635e1ceb31882e3af4ab15acbffc7177c5593a78f15d527d1e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_4303.uasset",
+      "bytes": 1789556,
+      "sha256": "1c45906cf0908c915e9e2369668ed1ada28e9eaa4661e6ad4f22b3dae63b34bb"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_4304.uasset",
+      "bytes": 1789786,
+      "sha256": "153656cb3bac54d5486450106ced482dab6c07622ecf2496b3c55a4686aa1ae6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_4305.uasset",
+      "bytes": 1789326,
+      "sha256": "97a489aa6e7fe9a3ecd2d790b7811aefe83b4bc6d050734d82977d99fe527ca0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_4306.uasset",
+      "bytes": 1789640,
+      "sha256": "9ab8c754c5f1f3f5da213ce4999c1f4d65c348d7c318c7684ecb5b1f04ae964c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_009_4307.uasset",
+      "bytes": 1789608,
+      "sha256": "bcfd36ecd84f0842b3f0ded6cf7de218f297ee50c4d6f35bf19fb374772e1ea1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_056.uasset",
+      "bytes": 3086485,
+      "sha256": "d5b0e80844db3c7e1849bde0d2710c70c27713d4ec6639f8224d70d1d43c30ca"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_072.uasset",
+      "bytes": 3086897,
+      "sha256": "d0e1c4fb49885a87e7e7a4521efdf53d68e9d372143cb905f7bfebf8f051c9a9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_073.uasset",
+      "bytes": 3087212,
+      "sha256": "68f29302f1dd2937d6b3b6909abe786e33f9a32fb52c4264e926b2a52717018c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_074.uasset",
+      "bytes": 3089053,
+      "sha256": "386fe2dc2bc7e2a81d45ebc96a7250b6c8f9c7a05ed2719eb2314bc59068f12d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_075.uasset",
+      "bytes": 3086905,
+      "sha256": "6555046f6f841e0e8bf23d8e49b1f134d23078896f1546f72f921645b0ca6043"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_077.uasset",
+      "bytes": 3089844,
+      "sha256": "14befa0e53effec261d3e3814b049c6f76ec6d290f701c8244d449bdcc7bf5a6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_078.uasset",
+      "bytes": 3090874,
+      "sha256": "634c9f0057afaa360fb44231d8fb0f465bd4161525783d250a6e298fd94a6c35"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_079.uasset",
+      "bytes": 3091198,
+      "sha256": "6b6ba94e64b162416647562e127519a1191d19e07372c048a3be72f719c1e988"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_080.uasset",
+      "bytes": 3085835,
+      "sha256": "c6e136d245de532ec2bf9a9c54d3160d2d9cdbd8877e37c70544880ecf729b0b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_081.uasset",
+      "bytes": 3091143,
+      "sha256": "4f567db64481b9853ff1694fd2e9f9a7d7640e877489b95af9ce27b122cc767a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_AM84_19_082.uasset",
+      "bytes": 3085625,
+      "sha256": "b22c48f43bacf74b47a736b1229b599999306fa450a83c77c41937ddb1603aba"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_Plane018.uasset",
+      "bytes": 30915,
+      "sha256": "6b9d9c00c0299f23e17686bc576cf755ec756c52bab046013c6ebf6e7978a3c0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/plane002_Plane019.uasset",
+      "bytes": 30938,
+      "sha256": "d08800bbe5a84cb1f0325c5acaaa4b68be1d50c1206b27f23a5b5a7ded99836a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Geometries/ren.uasset",
+      "bytes": 738093,
+      "sha256": "111a5703b368383b13343b3ec81637a62919e9719a12bd6737ed0bdb12afcf88"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Maps/VRAirportMap.umap",
+      "bytes": 1337469,
+      "sha256": "aa3147ffc122e3ade36ae3c0a4e67f8e07ebdd81cd559a688ec1bd74324aaeb6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/00000000_dds.uasset",
+      "bytes": 9060,
+      "sha256": "9e44bffb690721a0559248dc8efd66b67f0e7a2f0af7353972ca1cc5be73af71"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/00000000_dds_ncl1_1.uasset",
+      "bytes": 9423,
+      "sha256": "177bd5be529066aec77ecd88b9d1ae84f148767b9db659a47ce9e73ec752bf39"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/01d5619d_dds.uasset",
+      "bytes": 9560,
+      "sha256": "58e7ca9af3fd727ea6859a93b81b0c210f5649e45173d9035c1ed5c915636647"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/01eebec1_dds.uasset",
+      "bytes": 10609,
+      "sha256": "3d00aa804d50d1b79eea837919853f4a14c3d67507e29ab383b01ad64974e01d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/02595150_dds.uasset",
+      "bytes": 12439,
+      "sha256": "9da2190ebed8845e6e28f08c76d4f11ec3208b214e9ff2eb4b7d56738d668b21"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/02_-_Default.uasset",
+      "bytes": 7840,
+      "sha256": "48f83a7d647931d1dbae01b77eab0fb8083d352a43bae1c409ba4a9d4bce6db2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/03_-_Default.uasset",
+      "bytes": 9052,
+      "sha256": "b09dee55a0e65af040278471def4bc8fa4520ba40a3d4996a8044c84d6152eae"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/03_-_Default01.uasset",
+      "bytes": 9044,
+      "sha256": "ea52e7a94805172baad15f34aa1690f120caaf554345394bb04eac249e75c887"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/04_-_Default.uasset",
+      "bytes": 9021,
+      "sha256": "bcd4426281644840239465179f99dca968bb3d9057f774e9f7cc0879fc6d249a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/04_-_Default01.uasset",
+      "bytes": 9039,
+      "sha256": "df5814918144bfb0707a86a0604740b52331753a43421c8aa36973339b2fda96"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/04_-_Default04.uasset",
+      "bytes": 9806,
+      "sha256": "62b6fa1cccbbfb4aa7ea1ec3d6d0c9d1e610538073902be924eb4a7275f8f82e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/05_-_Default.uasset",
+      "bytes": 10941,
+      "sha256": "430d383f944692e739abe78322d14eeef37016055f55ddee362a65ea7ae3b8de"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/05c87ff5_dds.uasset",
+      "bytes": 10232,
+      "sha256": "c8326b646572062e5cc59d9e3048c70c531cc1b62688acb9250ef5ac607022d2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/079315b8_dds.uasset",
+      "bytes": 11067,
+      "sha256": "8358774e1a4744980cbccce9140a86747c0eaaae97675bd8dc749743caf1e11d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/07b97856_dds.uasset",
+      "bytes": 11895,
+      "sha256": "ca13fcba0582024871b724df760a92c6a9e6f81e19ea7c72cf71d8c49eb73f52"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/07陆军迷彩A.uasset",
+      "bytes": 16021,
+      "sha256": "15a5ba7daa5e3104901078708f7f261e06f614f4ed41cdad62201e31c5d49987"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/0d6e0646_dds.uasset",
+      "bytes": 14142,
+      "sha256": "5d4cea4ee06a05df207968900072e7e33b5b60e8c60bb5725a0a05f0f19de0fc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/11_-_Default.uasset",
+      "bytes": 13395,
+      "sha256": "5aec94d5a9cf89dde4787e1ef32d25ea443de6732ad65fdfdbf31116fc94fe00"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/134f4697_dds.uasset",
+      "bytes": 9551,
+      "sha256": "7caff9826ff65af0c2e59a134331d86982134feaf7662e0cfeb9c1f410df652a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/13e3cdba_dds.uasset",
+      "bytes": 8574,
+      "sha256": "4006816e00d1b32dcc015ce9e4e8900a218b903044203ebddeabf01c0e5f6c9d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/1416142f_dds.uasset",
+      "bytes": 8945,
+      "sha256": "de179b975ce1255137e7436a048dce7be632492baeb2d65a5f8e66bb4a113b52"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/15acf1d1_dds.uasset",
+      "bytes": 9598,
+      "sha256": "e37a6ccbe031e2c6eb929556f80fe67721ccfd12c56da1a9a00d8a68271f2ef2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/17668de2_dds.uasset",
+      "bytes": 10270,
+      "sha256": "6e3bc6d8f8be76ea2b2d73f1e3b8671f0a4bfc02200a62409666190ad85ec0e4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/19404e99_dds.uasset",
+      "bytes": 9749,
+      "sha256": "bd61a8ce256dcb6e80f316f539fda997dd176b3829315aeb302eea54b2426516"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2117310d_dds.uasset",
+      "bytes": 10492,
+      "sha256": "0454961b9af2a6b6500232645e6db74fe138890770780afe1017ace1f396d5de"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2270c5b0_dds.uasset",
+      "bytes": 12815,
+      "sha256": "48f80404ffadfd939918f27017e249385c007b1c5111ac26e78039bfc1472a92"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2298817f_dds.uasset",
+      "bytes": 8835,
+      "sha256": "c9ff635db03e3681726a832d8b4f36ceca4a2ae9ea698d18784e973200034419"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/246b5603_dds_ncl1_1.uasset",
+      "bytes": 9655,
+      "sha256": "3fd2ee8277b33f7bb224c2edaea2ec960ed0e6d4c0c115e8ce087be40d36c975"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/24938a2c_dds.uasset",
+      "bytes": 9089,
+      "sha256": "fe67710db742c27aed4726c0c449f42ad2c683d83e6da62eb4461a10b443efe0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/25cb07aa_dds.uasset",
+      "bytes": 9155,
+      "sha256": "e788e2d09a4aeb33bd442e7d93a2e0c64cc769df010f88502d33b365fbf0f231"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2677ea8f_dds.uasset",
+      "bytes": 9349,
+      "sha256": "db8ba386a0ad7e7228158b57618619e5336f23cd9c97c69fd53f551fa045eb7e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2677ea8f_dds_ncl1_1.uasset",
+      "bytes": 9387,
+      "sha256": "c0f063dd1f7ce7e2ecf18b156d64ccc5efa30a4448a944e134a8bafc6a3920d4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2846cf63_dds.uasset",
+      "bytes": 12954,
+      "sha256": "9eb9a81786b5f448c5ed1192533f71ab7944d4e6ec795e31631ffbc295c8b58d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2a87060c_dds.uasset",
+      "bytes": 8544,
+      "sha256": "85d8f61c9d05f00a6b24bfa8fadd76cb840d80c656433bbc01211f33bb596eda"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2cd9bd2f_dds.uasset",
+      "bytes": 11372,
+      "sha256": "7d4e3c59b87c84c1dd05b688152dd55887b1d157f85b3e12e8c0530a3ad86b55"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/2d0437d1_dds.uasset",
+      "bytes": 10020,
+      "sha256": "34fccfc87203899fe8cea8cf3db05b436c733cbb437292240f78a9c0c02a32a7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/31fa9b05_dds.uasset",
+      "bytes": 8533,
+      "sha256": "2dd57d45eb964afb4cdea4398827d6d53f88e9cf782ab15a08f84b7e2c19de78"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/33481142_dds.uasset",
+      "bytes": 13768,
+      "sha256": "c1683fb2b7093352050baa2d5a77b5ce8d308d1b5e58a24e39a22b5fe912a368"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/3393f502_dds.uasset",
+      "bytes": 10169,
+      "sha256": "a119046003593a147c0bc3213be616c5d5c986030fdbfe02c34af0fa6b5a5758"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/3ad94d53_dds.uasset",
+      "bytes": 14267,
+      "sha256": "90e884aa2efe4a92853ea311d87783d87d6a9a59ece748b1be5e4d465e89a4a0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/3b115063_dds.uasset",
+      "bytes": 12346,
+      "sha256": "b61719cc0dcfb15e03a17cc040421d5fabbbf40c6b017d01829d0029c2f8605f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/3d2c1b0a_dds.uasset",
+      "bytes": 14014,
+      "sha256": "4f347bf905762da1c1bc95e9cb24669d1e552d4ba4172bd30efc60bee747d325"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/3e92a8c3_dds.uasset",
+      "bytes": 14898,
+      "sha256": "3ef11b45812a71230c08444d319a8addfe625524b358e89c9ded3972e7876913"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/3ff96eec_dds.uasset",
+      "bytes": 9638,
+      "sha256": "88b62dbfc6c18ea125dfaf5a7425cf3a04397ffdf6783658005b0a62a95b9de1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/424b46e8_dds.uasset",
+      "bytes": 11797,
+      "sha256": "9ae64952b6f212f8c3651f4e4d7c3a70559f6730bdf961415a83e3e359b53bd9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/424b46e8_dds_ncl1_1.uasset",
+      "bytes": 11835,
+      "sha256": "691ad887e8348baa2dc9aae2f67cc673332f8683c942340d26fda149d2862c23"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4305c13b_dds.uasset",
+      "bytes": 9878,
+      "sha256": "4a4883b5f1baa1d7cebe1e1dbcbf59017946845e76c764762010a72be1c8e7d9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4305c13b_dds_ncl1_1.uasset",
+      "bytes": 9926,
+      "sha256": "dabf3012c66e0c839daca0a3fa93ce3eaf199f280f297b288ba81ba056bd2adb"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4305c13b_dds_ncl1_2.uasset",
+      "bytes": 9926,
+      "sha256": "12184b25c7e4457237dc8623658de30f75aa0a68544688b7c9a0eace2628c1c7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/43b0691f_dds.uasset",
+      "bytes": 8319,
+      "sha256": "42730bf8647388722e5af395135b3f74426123e885474ab576dfecdfd2e83528"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/45f661e8_dds.uasset",
+      "bytes": 9513,
+      "sha256": "6499fe56a1d7be75ee88256c9b9f93fdfd63d46a04323e0b64648f0584e5e85d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/471846e6_dds.uasset",
+      "bytes": 9188,
+      "sha256": "2c2ace82783212526d3189373e5cdf0e00bf98638d6b11eb4cf466d1caf3a5ad"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/471846e6_dds_ncl1_1.uasset",
+      "bytes": 9236,
+      "sha256": "b2dd11265ccf909a9fafab34ce84f78a93acc6ec543099e502d80a552eb81038"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/485f2264_dds.uasset",
+      "bytes": 9266,
+      "sha256": "7ae53e69ac7f04bf86fdeef699779f474bc0aaf83f78b78fe6c624e20118f5b8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4b9c1e19_dds.uasset",
+      "bytes": 12574,
+      "sha256": "320e4e3ac542ef45de84e1e5c01228193e153c4885b716f91204dbc083683e99"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4d27abc8_dds.uasset",
+      "bytes": 8934,
+      "sha256": "058dae188f54c81032d95929b038e4f61efd03dcd84049dbc31d46f9ac298474"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4dfcc06e_dds.uasset",
+      "bytes": 15795,
+      "sha256": "8a9b260cba51ae917337a43b33afcfbdcd1c351876e525ec4944d40ade9c7a0f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4e5fd66d_dds.uasset",
+      "bytes": 12817,
+      "sha256": "5acd86c7fc36188dc47d1452aaaadabf4b8a27faf9c9685dfabb96384e6da071"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4e5fd66d_dds_ncl1_1.uasset",
+      "bytes": 12865,
+      "sha256": "4ac7138bffc034b72f25a7119dbda339c42824b9079efd4596efd5b4b6f79fe3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/4fca0734_dds.uasset",
+      "bytes": 13061,
+      "sha256": "fbf2225b7bddbb96c5df33351786368cf0068bb51d8fc35bbc277a2c60aaca33"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/515423bb_dds.uasset",
+      "bytes": 11107,
+      "sha256": "cd494d8b376f73ba24a5ccea33f40a5acbea8dea6c3729d0915bda9d070673c9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/515423bb_dds_ncl1_1.uasset",
+      "bytes": 12475,
+      "sha256": "1d40b73cbc5462dd44e2e717a7918f946765f1e33676c99c38c5951c4b36df75"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/52f17a95_dds.uasset",
+      "bytes": 9310,
+      "sha256": "e8cf3578225ac9e9e5f011dc72c5d2621bd41c1510e63003d9fd7247e4c46c83"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/55ebb587_dds.uasset",
+      "bytes": 9344,
+      "sha256": "4a9b49b43f89fbee75e7e5c68888ad49765a75a5e69ef9ae0963c489c6962ee2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/57ae6944_dds.uasset",
+      "bytes": 11036,
+      "sha256": "ef1e094214c74d62d930b3cdc53f1f831ad8bc44eabd8fd0885e9f5213d6248b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/5dcd1960_dds.uasset",
+      "bytes": 9513,
+      "sha256": "53a1f85cb1e57f101e4c8d167f99ca2794366286c3eedc1f8f45e83be67644ce"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/5fce432e_dds.uasset",
+      "bytes": 11491,
+      "sha256": "01ab92a35c44c21fc42484b2b86d0b3d2bc8dd998f91ac965423341e2cf6f3a0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/60822a18_dds.uasset",
+      "bytes": 8701,
+      "sha256": "5922d95994931e9002b6eea13dfe7d2a585e49ed04db168c9572a05e5c785030"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/6247fad0_dds.uasset",
+      "bytes": 10121,
+      "sha256": "052399cd8079888127c7a0a739d3bb576611e1154650e0a389bae9fe0ae4c794"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/6278a9ea_dds.uasset",
+      "bytes": 9930,
+      "sha256": "8d18dda07f3a07be3d7184bbea7ade57984d770096a9d95431326d9326b236bd"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/6b492a73_dds.uasset",
+      "bytes": 8903,
+      "sha256": "554c00bd9ab1da79f6bf48b8330614d7232946a0f62bc22402c22331bc6731ea"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/6b850584_dds.uasset",
+      "bytes": 9457,
+      "sha256": "e4913ec8f52131d58289b0fe832299d2ae6776d9a63d143519ad533a35ee1f61"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/6b868f02_dds.uasset",
+      "bytes": 11658,
+      "sha256": "61458ee185d1f21b174f115adc6d90a949b815d3affa6feff00b560db957ed79"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/6d761a9b_dds.uasset",
+      "bytes": 9027,
+      "sha256": "b6df1c2978d60345879dd4ce5a3acccd86ad2d8a09b8bbad1e180707630bbac1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/6fa8def1_dds.uasset",
+      "bytes": 9923,
+      "sha256": "bfcc2736d400e88edc46501207bda0ee7dd43c05d6a0af5bb066eac7352c80fc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/72dae4eb_dds.uasset",
+      "bytes": 9611,
+      "sha256": "35408e03afb0996372ecadf4fd5fe7821d7167857ec07e612aa663c4cf857b1d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/76d4960f_dds.uasset",
+      "bytes": 12612,
+      "sha256": "cc11515e73ad72151412e2cdf33010925c392e9ae250436d5587f7aff171ff5e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/7cc451fe_dds.uasset",
+      "bytes": 10022,
+      "sha256": "8ab7d5f560160eeb3851b8e8122fb04527575fa108eace08beb28a9eac1956f6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/7eff8e64_dds.uasset",
+      "bytes": 10026,
+      "sha256": "938d37b965af99e7dd0e1578d31b4cdca96bd81dd60ce1bcc062d4bec4ad5442"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/877601e5_dds.uasset",
+      "bytes": 8862,
+      "sha256": "bc0f715832c788cc803311863b0121080359ede850e465620baf0cbfeb09cddb"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/877601e5_dds_ncl1_1.uasset",
+      "bytes": 8910,
+      "sha256": "f030455a3451551df28b8bfb6e232bd8d5132a0cae1852de5b4d1be1f9276dc4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/8c4bf203_dds.uasset",
+      "bytes": 8584,
+      "sha256": "f27faef225b8720676de163b31ec4cdab092e2c38adbc106a14aa518c15d305f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/8d617a65_dds.uasset",
+      "bytes": 11646,
+      "sha256": "0dede7426e86d0eb694feff54a6813c84c851836ffe43dd83e6249068bfb7e91"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/8ed64d68_dds.uasset",
+      "bytes": 11076,
+      "sha256": "1988beddf2d7beaa4413d1bc7a7bea5759009d7321d56e32d910f4e889733791"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/9027db66_dds.uasset",
+      "bytes": 11805,
+      "sha256": "1559b2f0e3a44f91285083018765717f21ce3e1f65aa4d56f0d1e9485ded1dd7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/952e0790_dds.uasset",
+      "bytes": 9357,
+      "sha256": "84d7c3c475e4400fa5b7169df42876600579aa7711a4610c80a5bb1affa66d02"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/9692acd1_dds.uasset",
+      "bytes": 10394,
+      "sha256": "da2b5c904e85571f68579f1ee7d9484d85f5d32613e2de1f0983e207a78bfab5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/97e84f97_dds.uasset",
+      "bytes": 9489,
+      "sha256": "b1e631cb7c33276918fab876e7222703ec7b291493a685f26d3cb7aa2b30a88f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/98abb233_dds.uasset",
+      "bytes": 10088,
+      "sha256": "c992ddd12523c7a1dccca51871045f35611a0ff417429c77671cf319ca7e03f0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/9c73c6ed_dds.uasset",
+      "bytes": 11641,
+      "sha256": "a5ecbbc996f7da7a55c596b6be28dcd3d51612feeb300117c1139a3ff9c3ef56"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_009_3.uasset",
+      "bytes": 9064,
+      "sha256": "eb37ca52a40f06c1e044f4d48e5afbfc337551ae2d612e361a8f9dda32fe2b2d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_009_Default.uasset",
+      "bytes": 13573,
+      "sha256": "f09a3765c70ade43559184a2fc3f839037622b0c90cff61e0b1ccd720159c874"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_009_Glass.uasset",
+      "bytes": 9062,
+      "sha256": "7cfd868bab496e17afb5c9a1dd17e9c66fdb11ad331ba982634b33d12b1e99be"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_009_Glass_2.uasset",
+      "bytes": 10419,
+      "sha256": "7cdf3c90fb29edd61c331217c10cb0efaf9583284b6855461a4a207d74d6d693"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_009_Metal.uasset",
+      "bytes": 14788,
+      "sha256": "ebf9a8f631f25b3137fc55ee37fc35f3977734453bfae783270153cb8f3af19a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_009__Default.uasset",
+      "bytes": 14854,
+      "sha256": "3cef1d137be7cdf1fd28eb3f3cb7bfad6a7a9090b608387405757aae8beb8b84"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_1.uasset",
+      "bytes": 15236,
+      "sha256": "280316fc44fd625614dcfa62eeff389a3bc46d0a2bfe8fbcd251f9fc5944079b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_2.uasset",
+      "bytes": 9004,
+      "sha256": "b46be85f3681f61d9d1923ace53feb5cae4e55091eb4842f1bb433f353aa0742"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_3.uasset",
+      "bytes": 8340,
+      "sha256": "49b6f0a2fa369c4bab777fa20e1269915eb06b00e9d5b44337d3449f2d3b6b82"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_6.uasset",
+      "bytes": 9120,
+      "sha256": "573c80386ac96a653b7eebfd6c0138eb0b97f2838b8b63926aa896cd898c7b34"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_7.uasset",
+      "bytes": 9030,
+      "sha256": "0615780cc2e0be9cf08e85c906decca9b76fdbfdc0763463ba07e62b40b299b4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_Clean_metal.uasset",
+      "bytes": 9444,
+      "sha256": "6d7d48ad882f7f6d08a9b7334e28f23d4efb6a5667b75c0270113270f2deaa00"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_Glass.uasset",
+      "bytes": 9280,
+      "sha256": "64fd76d8e44dc8b3be45f4620eafae28176da31b2d8c623a7b6f028c92adac25"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_Metal.uasset",
+      "bytes": 15157,
+      "sha256": "967e3a90001fc810ab268afb83c8b790c2aa17c16bcee45aef3b161a64b5b7d8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_Ruber.uasset",
+      "bytes": 9109,
+      "sha256": "e55ab73130a8a830ba623208c1e52f8234fe09f4d3daa52452e88b375fdccae4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_Seats.uasset",
+      "bytes": 9127,
+      "sha256": "bba50ed525a8f58f8b7c2b70bb59e3b2fad9306331801587f382948dedb87e0e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_White_paint.uasset",
+      "bytes": 9382,
+      "sha256": "77a2e73e5dd2e31bf2b6f69e91ad41fa0414f3472aba6c557ce94d8c5172d536"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/AM84_19_screw.uasset",
+      "bytes": 9040,
+      "sha256": "67544b268a106f10ba705d278a7661aa34677ebc1184e5afa7a764891de492d2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/BOLIASFEFEWQRF.uasset",
+      "bytes": 7961,
+      "sha256": "6389a5bf6b37662b10c31a80310b8b2929be72cb749c73b03a3bbeb9f282e138"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/BOLIASFEFEWQRF_ncl1_1.uasset",
+      "bytes": 7999,
+      "sha256": "6dcfb80bd1db13041785357258198d5966861d8d77e0950bcf178a7a404e32ab"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/BOLIASFEFEWQRF_ncl1_2.uasset",
+      "bytes": 7999,
+      "sha256": "88a121de829774b1496aff8876ac07534b50bc86911a9f4656f39f7a17fe1b63"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/BOLIASFEFEWQRF_ncl1_3.uasset",
+      "bytes": 7999,
+      "sha256": "1a372c6853ede2666e0054ce33d6de73db8d255531559bcb686bb4ca5ba47818"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/BOLIASFEFEWQRF_ncl1_4.uasset",
+      "bytes": 7999,
+      "sha256": "eef89f397305e03cb4d291c0e07775b6afcd59df3709f97246b49b8f1af19268"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/BOLIASFEFEWQRF_ncl1_5.uasset",
+      "bytes": 7999,
+      "sha256": "a8f248f009f290ae1527757116becc16151dd99fb6a431ecb8bafc92e34bfcf1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/DDG.uasset",
+      "bytes": 9022,
+      "sha256": "ba4960996587dc63786f1f405fcba405e4fa61ef59b220e16599ac7c87ed5ace"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/FCQDCQWD.uasset",
+      "bytes": 8811,
+      "sha256": "f321e78ff5ef422446e5cbc117e012b5d6d998fd27620eb676f53ed2dfc4da99"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/FCQDCQWD_ncl1_1.uasset",
+      "bytes": 8849,
+      "sha256": "b72a5f670563dacc4f9fc2bb981688c6e9a6357b239e5888b7441b976f556542"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/J20S_Cop.uasset",
+      "bytes": 10526,
+      "sha256": "a6eb864fef3f1e56ea59bb424eb82ef9f46ceabd6fba5cc8ac700a6518a9a33f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/J20S_LandGear.uasset",
+      "bytes": 15071,
+      "sha256": "210158a20df7c016cbebb04d51d57b32e9f49fdbb43f784f11b3cfa865d67eef"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/J20_AirFrame.uasset",
+      "bytes": 15441,
+      "sha256": "3eae742d202e7281d89cac004d59318cd849b303d18649ddf87ca7c88d23a18e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/J20_glass.uasset",
+      "bytes": 10911,
+      "sha256": "3e76500b0065562e2007e6aa345dd40ef083441f2e60ec383638a0d71a91b739"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/J35_Cop_Seat.uasset",
+      "bytes": 11036,
+      "sha256": "61028f6205debcab4cb0b7ac8ddba704eded6f8c74149edc7312e81443d5bec7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/MI_wk1ncbxja.uasset",
+      "bytes": 54713,
+      "sha256": "0673bb49d24836b827c710a93002b80ecf5239b173bc08c8e0e94ef16f643548"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/MI_wk1ncbxja_Billboard.uasset",
+      "bytes": 41819,
+      "sha256": "f3576a6e50be36316058396ba834d34d8a98d14030d8e90ce6e3ba8ec3cf8a59"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Mat_Fiberglass_Ladder_Base_Color_1Material.uasset",
+      "bytes": 13281,
+      "sha256": "1f2a9a4a405c49e41c53a7e37deb11499aff4bc4f78ffdd79cdebdd43fdc4b4b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__11603.uasset",
+      "bytes": 15328,
+      "sha256": "3c3d4285a198e731218fed2ac5b56ea2463c21719a4f84e4aba7240066fa062f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__135.uasset",
+      "bytes": 22234,
+      "sha256": "bf95ab694b0d9cc60b57b7ccb12f23cf83edefac6c7adc5edf8ffefb19583977"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978214.uasset",
+      "bytes": 11663,
+      "sha256": "2c53bc1ea18d18d3821ec8cc24933c65b43ad4f827312697f3635685338a1298"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__166197821401.uasset",
+      "bytes": 11602,
+      "sha256": "77ac8a7f22ba28da06eb3ed348cbb0984339d593c7474a449b2cd1a6ab80fe4e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978227.uasset",
+      "bytes": 9452,
+      "sha256": "44302249436f6e4d357623fa2ee76f08a8e6ff7ad02573fb30a36992057a9fb3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__166197822701.uasset",
+      "bytes": 9402,
+      "sha256": "acf127393245a6a38d7ff85286707868c91ad0ccd6ebee640f177d834c37ea15"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978257.uasset",
+      "bytes": 13434,
+      "sha256": "41046a1ac6062ae0b510bb5d0d36f4e66dd35cf7d6dea343424fb89dc1fb5ba2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978260.uasset",
+      "bytes": 12735,
+      "sha256": "e4ae7db35f94f8e434e9505a3bcfebf36611ac47383b12a7f1b9d6bc8ab52247"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978260_ncl1_1.uasset",
+      "bytes": 12795,
+      "sha256": "abfe0495301cad897468ab8d1bb879d6ee870e4b1a0e9ef193e2ddb5004cc3ae"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978260_ncl1_2.uasset",
+      "bytes": 12795,
+      "sha256": "e10863f00cb8d9f7aa031f8302322de5339882cc096b5d2f4fcacafa0282d653"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978260_ncl1_3.uasset",
+      "bytes": 12795,
+      "sha256": "e4138ff35028cb7f25d249884266e2c0a56dae0edaed0dcd57f403061cd71cc4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978265.uasset",
+      "bytes": 11166,
+      "sha256": "adfbfdb0d1ace574f21b8863289f4ad8d9bb50afbddfee2135c47d7cba4b4960"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267.uasset",
+      "bytes": 10402,
+      "sha256": "ad4d88ed2ba7b33e8b12fd145ae46ac270a612335bd50efdbcdb33aba7e9246f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_1.uasset",
+      "bytes": 10462,
+      "sha256": "ce1b3d30b6f558b40104a9ec112f552b59ff00af9afde4d55bedfbe6766704d3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_10.uasset",
+      "bytes": 10466,
+      "sha256": "d63eb043cb79d1f898820b98592e6201847638034ec01dfccf43458a29707530"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_11.uasset",
+      "bytes": 10466,
+      "sha256": "a90e4ce7352d3d817bbe95d5b2701fe1acd2eca94973d2c4829ee99e87231fad"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_12.uasset",
+      "bytes": 10466,
+      "sha256": "daab1b3ce43f765ebf8c6b22445c564e7a021b35152e9156fa29a3e1805d0219"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_2.uasset",
+      "bytes": 10462,
+      "sha256": "bad2d77b2aef865e030bfffaabcb6e03432b610f8a5b291577c23b039f2fd98a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_3.uasset",
+      "bytes": 10462,
+      "sha256": "1a449608fc9cdc79ad47ae8db3355177f532da7c4e18dc4a6b15fc7e767d11be"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_4.uasset",
+      "bytes": 10462,
+      "sha256": "d6b2ea2b6de4dac1d68929d45875b6fb72177f25fe2765ab2627b88b32ee0fdd"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_5.uasset",
+      "bytes": 10462,
+      "sha256": "dbc723bd86bbcde2d12631f6d64a132727a2fcabebe551cc7d06be8fe88bb4d6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978267_ncl1_8.uasset",
+      "bytes": 10462,
+      "sha256": "946bf8523e5be50043f4994dfaeca800e13c33cd5ad1b5b82d38adba8e2fc70e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978268.uasset",
+      "bytes": 14192,
+      "sha256": "f8db2585f338a560dfa07d3ee0e2c8d7c5fd0ea764e348faa80917971a3d5946"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978274.uasset",
+      "bytes": 10907,
+      "sha256": "3e4eb86013593f81229e558bd34780d30b8a87c1055d77c53c9ccbe75aa3b8da"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978274_ncl1_1.uasset",
+      "bytes": 10967,
+      "sha256": "2c63c42e65efa5f51c0dd5e1a44ae2994f7a076e811bb726fce3ae8f48752b40"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978274_ncl1_2.uasset",
+      "bytes": 10967,
+      "sha256": "e35f644a0e20c6d6dd9710049fc6d6a7dc5ca1b6c000c775a60d6621710ab22f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978274_ncl1_3.uasset",
+      "bytes": 10967,
+      "sha256": "147a3e745c0b6a48e18459e4579776bbdca9123abbd2c4fbdf47825428c00369"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978274_ncl1_4.uasset",
+      "bytes": 10967,
+      "sha256": "9888c4bffcacbf8e3c2dc3e99ebf59b9c5ee99be61453942d985dc6596331db0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978274_ncl1_7.uasset",
+      "bytes": 10967,
+      "sha256": "91377b7786534a9e2e48d0e576483d683c8dc45a232c16755d9866fc306b7606"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978274_ncl1_9.uasset",
+      "bytes": 10967,
+      "sha256": "57c0950f396456458c1a741510fc76ac63047834c4b1d1be1cd9929c3915a0f4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978278.uasset",
+      "bytes": 13302,
+      "sha256": "4e41259191055fa8e012e0eb05343f9b7dc63ceca4919b9402d6125d13d17449"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978278_ncl1_1.uasset",
+      "bytes": 13362,
+      "sha256": "fd58e34445a39fcfa84820a9004b7be2ab084b2483a793a89cf8940c061a7f69"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978278_ncl1_2.uasset",
+      "bytes": 13362,
+      "sha256": "922da426eb5ac8658840ce2a2b2ae6f60b211eb83c4a7946a41f130e8c494c45"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978278_ncl1_3.uasset",
+      "bytes": 13362,
+      "sha256": "30a53826eb6ad99ccdcb139a5bb68a7009e5fd23d78f98c27d7ec639cecddcb4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978279.uasset",
+      "bytes": 14452,
+      "sha256": "8d684ac9cb751570f5c23855f232382dfceaecba836f4ff365d849911401ac0c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978279_ncl1_1.uasset",
+      "bytes": 14512,
+      "sha256": "5c58f155d0577495e5fa03b2a96ddd515d1b2622ec7611dfa3536413c003dced"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978279_ncl1_2.uasset",
+      "bytes": 14512,
+      "sha256": "3a58eb283cbe31b3774e66614c2a12abef146308c704ad7072018341c15fccd8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978279_ncl1_3.uasset",
+      "bytes": 14512,
+      "sha256": "22e8476b9044670a78184cbefa5959b7b4a4013a21a39f066d0da1f08c1fff0a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978279_ncl1_4.uasset",
+      "bytes": 14512,
+      "sha256": "6ca5c1bb95abacc2d01682b6b2f207295b2eb9ab4677fc44665e32917a27e694"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978285_ncl1_2.uasset",
+      "bytes": 10198,
+      "sha256": "a880b4ebd16f42c84743c98acef5a1590fbe1a91a053d220d7e19666edaccfc8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978287.uasset",
+      "bytes": 14100,
+      "sha256": "16f9e540804e469b6c5ebd5f0b1b3ba2ff8cec0b5995beb746d035c192eae01b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978303.uasset",
+      "bytes": 11761,
+      "sha256": "6ba0f6eb753cf60783ca11b8b2f2aaf6e6380cbfc4599c3994651bc7c566991d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978305.uasset",
+      "bytes": 10284,
+      "sha256": "f32af8556be4457f1073797ab31997a31299f09138ab8e6547c410657e641703"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978306.uasset",
+      "bytes": 10067,
+      "sha256": "369f6f714d6ecd02931191103684aeaadbca73ae859b2c7bf52c8969da7721a5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978309.uasset",
+      "bytes": 11865,
+      "sha256": "835c9fabffb9f982091464c45bd99f5db08604914f234638ad4cc54c6a4f0944"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978310.uasset",
+      "bytes": 12255,
+      "sha256": "b011436c0d9cb065bc6878f219822ad4d65e5c708f34e76eb69ba34ed8356d13"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978310_ncl1_1.uasset",
+      "bytes": 12315,
+      "sha256": "069014953a9cec4cb02c0a4ea13a52fe7d21e067a7a959edcb69149f676de8d4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978310_ncl1_2.uasset",
+      "bytes": 12315,
+      "sha256": "e3670cf33d401743997d683247660ad1e08b028841812eecaea0cd98bb7a1c6a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978310_ncl1_3.uasset",
+      "bytes": 12315,
+      "sha256": "0cc6392d486b02fa0f28b5ec531697a055eca602ddb3efa4ae3b4e0087444de0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978314.uasset",
+      "bytes": 16703,
+      "sha256": "76e481cb7363bbe054b28cf6ccea27b4b64068d6d3fe6059cb9a0cbf591e5216"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978317.uasset",
+      "bytes": 15680,
+      "sha256": "ad7154da46c39894f8cac43bb7a138c46c4eb2d1b9130a57671b11bfab998324"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978317_ncl1_1.uasset",
+      "bytes": 15740,
+      "sha256": "8409a87c5f1f765e5489178f49045ad28fdac7314310a28d2c46a4165a09c31c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978319.uasset",
+      "bytes": 10018,
+      "sha256": "7632952fc3cfee24245cce70a59b0ab6d0ec031702638eb8eb27f86a973d764d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978319_ncl1_1.uasset",
+      "bytes": 10078,
+      "sha256": "e4a82b7933e9d71636f7437bab844f5419a2528796337572b9d2003481d44337"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978410_Slot__6.uasset",
+      "bytes": 7543,
+      "sha256": "cc98344290a9dc18e3db48d3a9ea23228def7787460240333bcd79181c7dc51b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978410_Slot__7.uasset",
+      "bytes": 7543,
+      "sha256": "25d22d65e93c6ea3097d0e8e3b61f7aeebbfe141eaa3db44eb84fdef5e7b0a10"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978540_Slot__6.uasset",
+      "bytes": 7543,
+      "sha256": "9b5d2f7e763845a0e479ff7da87f09e5f3c628070547d72dc10d0a7b9ed82606"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978709_Slot__3.uasset",
+      "bytes": 9850,
+      "sha256": "e60098fb5d1a09d23cab6b40f2782e7a6f1b9f802c663197e6d1dbe2d6cb6594"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__1661978709_Slot__4.uasset",
+      "bytes": 12722,
+      "sha256": "7183a1910baae5ed4d298cefc3ca0ecd3824aa6db31651b2909385e45e18a634"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__2.uasset",
+      "bytes": 15043,
+      "sha256": "d657dbe0fe1988be76978f03b3655d68fe7bf708e6d640fb14b3f583f117fdb9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__26667.uasset",
+      "bytes": 15224,
+      "sha256": "4ea8000b25f7da5c5e4e118f250483312b13bcc6c8a8da0e8c20b298478b1b5b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/Material__59.uasset",
+      "bytes": 11160,
+      "sha256": "5d4cf5a1ed0aeee7f03c57984a2a9a09fa2c1edcbefa10dbc97ba25bf0dd2b51"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/PL10_hull.uasset",
+      "bytes": 13458,
+      "sha256": "dd4d0e4c8925245a5aa68338da2545cf1341de9b2bff6a350cec3451507bcf5a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/PL15_hull.uasset",
+      "bytes": 13445,
+      "sha256": "caff496f82da596b406a3e044e7ec78604db23fafa9126479df042a5e7c3062c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/SoftOutline_Molten.uasset",
+      "bytes": 14266,
+      "sha256": "7bd8d9d502dc4d2977312919e979dee83f64629771c7bffbe84f12afc5b06879"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/VCDQWault.uasset",
+      "bytes": 7708,
+      "sha256": "6ceacc072c7e4d283b652120a3d16f11d11590302f4281379d9eb4e56053185b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/VDWQDWQD.uasset",
+      "bytes": 9025,
+      "sha256": "f5344972b6a35f23e7a973d4039a3cb10c33866c582c0637e7b7ac5966f2c883"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/VEQFQDWQD.uasset",
+      "bytes": 7658,
+      "sha256": "549a7b21a6fcd913fa0c5f77e14532a88be142a1ec79539dd65803055228a55f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/VQECWQDSAD.uasset",
+      "bytes": 14382,
+      "sha256": "70032c8eb5f103a949831eeb363f3ea407ef5d7eab288c15f7d4f7af10f030f4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/VQEDWQD_ncl1_2.uasset",
+      "bytes": 9196,
+      "sha256": "a584467a33e6fcb703b1c03377236dae94b605cc7807972b818c90c2d9a530e1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/a0e688c1_dds.uasset",
+      "bytes": 8727,
+      "sha256": "594835aa530b4ca1aa8f16743c87e6590254fff8afb901e222f0f87eb6b1893e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/a943e1ec_dds.uasset",
+      "bytes": 11752,
+      "sha256": "f8b3e37d4299f8fb829289f90b8eb79ff1896c992059e02ef03704470e4aea64"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/ae7ae1fa_dds.uasset",
+      "bytes": 10690,
+      "sha256": "ee0c0dfd1569df5ac6652546d2b06302517ef673de495ba8ceec0cfbd33bd9c8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/af621e7c_dds.uasset",
+      "bytes": 7556,
+      "sha256": "696a3655dc561b4f0e0cb0ef7c8da73d209dad6e707a6c526e977556874d77b5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/b059fe85_dds.uasset",
+      "bytes": 10140,
+      "sha256": "d7741f7c1cc76f2db6c98daeeb194503dbc5d408f8575f9632e28fa65cb20b01"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/b0a77ef2_dds.uasset",
+      "bytes": 8873,
+      "sha256": "66d32ddaf690732f9402d8b7fdcce0ab0df7c450d976e5f953b840e770cd5d92"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/b61124c8_dds.uasset",
+      "bytes": 11989,
+      "sha256": "69578dc2852753555720f85aa2c3659b77e9236835f0a8ff9d9b53d4d6e31427"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/b9ecc2be_dds.uasset",
+      "bytes": 11009,
+      "sha256": "b4dd2019d267f55a4bdd715c3f3ac118178fe5f9b56cb11302a49098e172896e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/ba890535_dds.uasset",
+      "bytes": 9518,
+      "sha256": "1ea1e3823995fe48178b76e7f5d9c19737b285ed0089237f83986d1a3be15f88"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/ba890535_dds_ncl1_1.uasset",
+      "bytes": 9556,
+      "sha256": "fcd287ff46d500ceb382f235ab242164d23f264a900970606f9c92465af8f955"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/bc29be73_dds.uasset",
+      "bytes": 12517,
+      "sha256": "0e18216dc6f2ab8687e488434936854d95a425d5b6b906ed987d487bb3310fba"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/c6d90f53_dds.uasset",
+      "bytes": 15345,
+      "sha256": "f8b266bc6213b095ac14052fc6cb624ece591fcc28940881b578cffcd4b813b2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/c6f335cb_dds.uasset",
+      "bytes": 8561,
+      "sha256": "9b3ed03caf163f6606ed7258259ef5accf35eaac8cbfa2b493258ba894da14fc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/cacb665a_dds.uasset",
+      "bytes": 8734,
+      "sha256": "ec3b04ea201adca32d0da994112c68c30db041c0dcf55a9c301b4d9f0be75b9b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/d1ca2c27_dds.uasset",
+      "bytes": 10306,
+      "sha256": "bf04ace6bebfdb13d1313e7a1a498fac2c1bb377e69b56b9b4be868ff0ad4069"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/d1ca2c27_dds_ncl1_1.uasset",
+      "bytes": 10344,
+      "sha256": "0af9444e76ef821bd35ddfb8039a620f4e77dfbf847219ea642129b35f288c1a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/d46ae88e_dds.uasset",
+      "bytes": 12525,
+      "sha256": "6f4356f3fb3d7f284d127e4bd22993b1321b7138a5a58f81cf89b1060c0d9f20"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/d6a0b96f_dds.uasset",
+      "bytes": 9868,
+      "sha256": "9420deb2f138992b956afa4659ce8c44e574019d845c836826a55339232627d6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/d9744ca6_dds.uasset",
+      "bytes": 9958,
+      "sha256": "a570bedad29076754c919391e5a1d90ffcb4a051fc77be2fcd2c972ee94c0dd3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dacf259d_dds.uasset",
+      "bytes": 9324,
+      "sha256": "73424b8f7c46e29e0460b4d5bf9362a429cee0578ebd932ff367ee64d748d471"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dacf259d_dds_ncl1_1.uasset",
+      "bytes": 9362,
+      "sha256": "1d3b201fbb3ba252f1890fb587d0cd720dc0731007db68ddc5050124ffcc05e7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dacf259d_dds_ncl1_2.uasset",
+      "bytes": 9362,
+      "sha256": "242f46a57d5aeab7e292cd7e6bbd6fdbef5274a47155d7fc075fbef53babd2e7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dacf259d_dds_ncl1_3.uasset",
+      "bytes": 9906,
+      "sha256": "9843ba700fb93734d593340e09e4fccd7b644d2ff07e98180fce8cc04e8ed431"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dacf259d_dds_ncl1_4.uasset",
+      "bytes": 9362,
+      "sha256": "b5613a0987110f40e064fcf2313c72d0c4f37dba21e546bae04ea1e9da6b7430"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/db0a1d88_dds.uasset",
+      "bytes": 11937,
+      "sha256": "830964e2e7c1460c1771ef1120fa858a5e2949d0291ec281737f7a369e14b51d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dc4726cc_dds.uasset",
+      "bytes": 12542,
+      "sha256": "926dcbea739ec8240c360048d23658a9b0e6ba504dc9b3f129ef205579e27d78"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dd63f2d9_dds.uasset",
+      "bytes": 14486,
+      "sha256": "31a68eedd98d341185d27e243256b6d19429eeb05cf9c16842e51425644b2257"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dd6ae700_dds.uasset",
+      "bytes": 8871,
+      "sha256": "8ac6bf4b7664e9a2dfc8efb3e6d5b5ab4dbad222984bc3d36ac53df6d2043ad2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/dimian_MT.uasset",
+      "bytes": 13422,
+      "sha256": "9e07072ebe10f3763f228e9c318a5011027f9759bbadbb17b24aa5a05b5de07f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e05a50aa_dds.uasset",
+      "bytes": 8800,
+      "sha256": "3f93ffd4de49a8c2df940162f26fedf26db8ad7f1f4f4e795b136e4663540bbc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e08916f1_dds.uasset",
+      "bytes": 13455,
+      "sha256": "ab63d668d28de50b025cca29b170d329a80e075d54e648972b9b4b65de1b9610"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e2bade6f_dds.uasset",
+      "bytes": 8679,
+      "sha256": "2199357b8c0b6b248ed232ab96899d3c5d8203cfa91b3bcc845114bbd254019d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e47e6e63_dds.uasset",
+      "bytes": 9252,
+      "sha256": "7299762ef01e6601e991acc22b795c3664510f38d47512977133e2efba08e2f6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e4cd7ada_dds.uasset",
+      "bytes": 12933,
+      "sha256": "b55104c6fcf8c8ff5ac50bd4ad301839eb7528346a3abe8113d39290d4ca4169"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e5eaf792_dds.uasset",
+      "bytes": 13010,
+      "sha256": "52a438b0e27f5b2e34121fb38e92c372d20afc97d47e54b8b59c5de59042d2d6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e5eaf792_dds_ncl1_1.uasset",
+      "bytes": 13048,
+      "sha256": "dc9e7b91b89b12aad834f938e641654c4163b83ded43730df6458f4b09043970"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/e928c590_dds.uasset",
+      "bytes": 9136,
+      "sha256": "61f14ea75c68163f06896a09c1e301d9b24465355da08ff1a70294b9d0173e49"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/ee91b8ed_dds.uasset",
+      "bytes": 9482,
+      "sha256": "50d79a1a997a5cb071b46b59105ee32a2a703a852801d93947a62901a4ce0fc1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/f0f1ac33_dds.uasset",
+      "bytes": 8836,
+      "sha256": "cca6117141fe093bf215120678c17c5cf1a7264def80f840e90fafd8b9518f58"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/faf3d934_dds.uasset",
+      "bytes": 11512,
+      "sha256": "86ca9c5c84efa9dd84b60e142b3686ed2bcd7eb622500391ec3f4d23b181fb5a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/fb77611e_dds.uasset",
+      "bytes": 9795,
+      "sha256": "b0b96d20a76d3972d2517029051d8f8ffba52c9fcf11799f8395bfc76764b33f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/fc1c79ce_dds_ncl1_2.uasset",
+      "bytes": 12100,
+      "sha256": "20a85edc13117fa58091432b6598abb99e95faca7b8e3d9bae40af55349c6696"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/fcb6b3c2_dds.uasset",
+      "bytes": 8281,
+      "sha256": "9b321058f5c98b950939f3e5b5446b2d3cf0796b050f5469265df77061f236ef"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/line.uasset",
+      "bytes": 12133,
+      "sha256": "9ef886b7a5a5f7dfc90ab62dac09ce20da188522ce9c4cfd8d799dc5260ce072"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/line_Inst.uasset",
+      "bytes": 9385,
+      "sha256": "8c8b448eb609207425011ffd5a24f8ac1f129c80b707a375188b6e81b1162916"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/手.uasset",
+      "bytes": 10363,
+      "sha256": "8b45a7cba7cadbb3cbdc548cc059f4d5e72aa557450a84241d1f97d6828df00c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/皮带扣.uasset",
+      "bytes": 9046,
+      "sha256": "b382be4890ba46ada7ba000aa54f56893cbf553cd0f142fa9cf5127e85c21ccf"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/皮带环.uasset",
+      "bytes": 8155,
+      "sha256": "c195803181a664f81a3bc46fa730d0da43107b9a9c8436dc6123dd13ea2a6c54"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/腰带.uasset",
+      "bytes": 9084,
+      "sha256": "ca6d69a67e4102794e2048b78ea1d5920f33abecbe256d7dc84973557a848577"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Materials/鞋子.uasset",
+      "bytes": 12427,
+      "sha256": "a804c822f958bce5bd531e69e5aa24d8a6d1d2628e599d40b52c6eaf8eeb7dac"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/01d5619d.uasset",
+      "bytes": 195004,
+      "sha256": "dc3800d025506cc04177f5e63ea6b1aa3f538376445e7c416907b84e64033c4d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/01eebec1.uasset",
+      "bytes": 23044,
+      "sha256": "f60b54f222173955cfa6ab703c44cbba28174796cc1ba1e86dde429f64069633"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/02595150_2.uasset",
+      "bytes": 159274,
+      "sha256": "0cfec4a1eb2d19a40459e7b3e35b058526184c89f2a0595730bc9e18671fe254"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/05c87ff5.uasset",
+      "bytes": 25402,
+      "sha256": "a0848afd38820e9390fc1e795ec44011a47f051efb3ba80479a9a604d5800f7d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/079315b8.uasset",
+      "bytes": 260220,
+      "sha256": "61299c32384150ec46901a7e13a6cf8de3cee915674183fc5459b060fe4e1c23"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/07b97856.uasset",
+      "bytes": 77377,
+      "sha256": "0730428dfbf3c3defd24787abb3578cb932ac39ca21454def8c59edf25ed88fd"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/0d6e0646.uasset",
+      "bytes": 298383,
+      "sha256": "b0a5d4479a695395bc9aa107946973414e71473bc64023231e7ce05c8224ad77"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/13020602516718_4.uasset",
+      "bytes": 18658,
+      "sha256": "36bf7d70db6b7dd8612df7ec1e2bf187899d872caae678626cf935c468994bbc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/134f4697.uasset",
+      "bytes": 22238,
+      "sha256": "21c6c473775799832b5cfbb1fa06fec3cd0fe61ac0cdae98c90f4e5acac0e08d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/13e3cdba.uasset",
+      "bytes": 26917,
+      "sha256": "75ce6665172f4b83fef1d1acc9bc8056bb8d98e221923e5877fa07395d6f7fe3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/1416142f.uasset",
+      "bytes": 8794,
+      "sha256": "1a3f5269db81c70d0fd1486b1586e9340a540ea5a9101fbaf45e1ea7a271a58a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/15acf1d1.uasset",
+      "bytes": 24752,
+      "sha256": "51c350a06acd4ef2de6a227afb9739e59c6a619a5eb6e3176dbea4603a1a56a2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/1628220_1217540265292_2.uasset",
+      "bytes": 392487,
+      "sha256": "262f8437f9563c846432045cfe3d72fe8d894869383616f57c1619c9f01a54a6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/1628220_121754065292_2.uasset",
+      "bytes": 392480,
+      "sha256": "6eb4f2f6d742911c4d65e6558cadc8f0bd45fbcf9f93c8601b03701c219532a0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/17668de2.uasset",
+      "bytes": 26163,
+      "sha256": "ceeaba2385afd83e5683612a5d952fbedce0f227df5ee500d2954d0566d6c0b9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/19404e99.uasset",
+      "bytes": 22275,
+      "sha256": "2c81edcf6ff87b8790aff3bfa3b4876cec7062375d5ed706bca050696c501a55"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2117310d.uasset",
+      "bytes": 25901,
+      "sha256": "f30ed725f00511c67ebc708ff672337296d35a77d00bdc11da06c63ab602a5d1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/216474_2.uasset",
+      "bytes": 59821,
+      "sha256": "ac74a0b60752a472e0ae4c76c03bb1de6adfa93d7941b31c9c37f6cb7a6f5947"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2270c5b0.uasset",
+      "bytes": 285173,
+      "sha256": "ec1388b69b2bfe1b2c0e2fbb896d2c916de0c9fada7fd25ad72d0429c0cfdfbe"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2298817f.uasset",
+      "bytes": 8314,
+      "sha256": "b674207a6b3473125662c46bc45d6d26531f0eb9321ba23138764361ee332109"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/246b5603.uasset",
+      "bytes": 9972,
+      "sha256": "44d25cc449c30d63fae472500affb6731cd8c508e560b439c6ca21c5ce3b5b71"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/24938a2c.uasset",
+      "bytes": 5892,
+      "sha256": "a986412c02887860a98d45f744ab38a258f7189949255d70c9b34d07324c3e36"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/250388-asphalt_tile-embed.uasset",
+      "bytes": 403860,
+      "sha256": "a0a8f9eafb40453c9359f28539c69faa1ba9d168484d4dcad009603c8b79af1f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/250388-asphalt_tile.uasset",
+      "bytes": 407535,
+      "sha256": "f34a784adadfe0db509e2447f3342edc4cdf521502753b2c55b1b53a3e634ffd"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/25cb07aa.uasset",
+      "bytes": 22696,
+      "sha256": "590ca8d1859b98f442338d26303975c38bae490ccf8a3166590386fd7d0b4df6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2677ea8f.uasset",
+      "bytes": 27913,
+      "sha256": "8183efc29d048c1d06990c550936c298c38eb962fc5422b7de176edce7941943"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2846cf63.uasset",
+      "bytes": 28881,
+      "sha256": "0c25e294e9e9c142911e581de8fc3a9c0a7f2135ad29745885fca3e3c2135892"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2a87060c.uasset",
+      "bytes": 7692,
+      "sha256": "f67f0669f6d29971844dc43cd008ecd25d5bec55ac8cb292c4d96e6dec44a5e7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2cd9bd2f.uasset",
+      "bytes": 102363,
+      "sha256": "468d5d302027c96f4c918ea25a8c66ac878422d9ae2a04e8ee8680b8f5ce5f72"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/2d0437d1.uasset",
+      "bytes": 73338,
+      "sha256": "e46726acc252c034957338167dc231f3a1e01164082967d2c7d5f27a48550e65"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/31fa9b05.uasset",
+      "bytes": 189786,
+      "sha256": "cb75c2f1efaf6268eb001fb846df612bdeeba06ab50658dba621b31e4cc7cc77"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/31fa9b05_ncl1_1.uasset",
+      "bytes": 189817,
+      "sha256": "9fa2d54255392c3bd3875d5b6f93bd0a3cde184e35b2b6ab191a2853dfb4178e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/33481142_2.uasset",
+      "bytes": 294848,
+      "sha256": "67b64a2fc174b870975b0ea60e46c4b207b33ac52f1b20a8c08524a05eec0f41"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/3393f502.uasset",
+      "bytes": 25006,
+      "sha256": "0e5e3bbdae943cf43584f5ab9f9cc2a9bb376fe94b54cfcd2925fdc4c4bfbf25"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/3ad94d53.uasset",
+      "bytes": 236763,
+      "sha256": "0fab68da433ef222fe5dcd2f3c0e85ed53aa670438b287a5cb7c95fa39b114b8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/3b115063.uasset",
+      "bytes": 107890,
+      "sha256": "00d3528cea5174237d4ea0626b6a7f5b21e897f01719c4ecd756ef3f58ca0799"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/3d2c1b0a.uasset",
+      "bytes": 25538,
+      "sha256": "5e6ec8432d3794a817cab99d739a17d71fc63de85e3af2e581bcbb62405746e6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/3e92a8c3.uasset",
+      "bytes": 329826,
+      "sha256": "471275ca561f87f76dbfcd3797738955fa24f1fa9fd48c5672352c761bda60ed"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/3ff96eec.uasset",
+      "bytes": 68938,
+      "sha256": "c9b6ef80dc603fd6f2eb60d472fe281698facc3aedaef73ca3eb35f502289239"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/424b46e8.uasset",
+      "bytes": 253464,
+      "sha256": "fc8d586a68cdc5b3ee6989a678986b17d9b81e6ee077d68996b5f62eb6fd4efc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4305c13b.uasset",
+      "bytes": 92211,
+      "sha256": "3254c8f74b0487bfc8393d427047ecb22b75c94d6322133d6638a137eff35f01"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4305c13b_ncl1_1.uasset",
+      "bytes": 92190,
+      "sha256": "ab2d148f3113c254893dae913963d8b112fa8c77ac0f32b7173081aa6ddd763e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/43b0691f.uasset",
+      "bytes": 8123,
+      "sha256": "c9cad60538214ef2915d62be28f63faba64a03ff0cb4afc2a627863ccc494654"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/45f661e8.uasset",
+      "bytes": 23483,
+      "sha256": "ff425189e90176c6970ed9bd36c5512e43a14ea7a72c36546a733c3c110435f5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/471846e6.uasset",
+      "bytes": 180363,
+      "sha256": "a39b797039b787f599143d42a77bc685e6eed7f27a23130c543858a7a303c040"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/471846e6_ncl1_1.uasset",
+      "bytes": 180394,
+      "sha256": "e3758a713d90b7a7d0d3284d8db74d2ff57a1549dd97cfc8834e32e0ea230e53"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/485f2264.uasset",
+      "bytes": 6485,
+      "sha256": "8463b28d03694fd5155276b4783575a90232473c2d545f287e14c8739359ac2d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4b9c1e19.uasset",
+      "bytes": 87023,
+      "sha256": "58398db19abf61699892cbf75b77afa4e238136e346d7ed2f36e7d51ce978ca5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4d27abc8.uasset",
+      "bytes": 24439,
+      "sha256": "1fbe540bc35f518337c8e1d10b5faf1b5d0f4c7c05e98e85d6935c818e69e360"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4dfcc06e.uasset",
+      "bytes": 305794,
+      "sha256": "ac2a6253d16de625d034994b4dfd3e2fba0a1cd8c05941f58c12ad788760fb96"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4e5fd66d.uasset",
+      "bytes": 284320,
+      "sha256": "6d75f8c838a4acadc20ace2b063aa2bba53ecd8fe154e7d30f32e6c8d1ee00b9"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4e5fd66d_ncl1_1.uasset",
+      "bytes": 284351,
+      "sha256": "72d74763e480ed293602a4204b10e89fea287f88e963cf05a8c4e7d8fdac7e82"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/4fca0734.uasset",
+      "bytes": 36738,
+      "sha256": "38e33a32032445871af55348a9fe8e369e66be23b384463781d3fb2a0f025ffa"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/515423bb.uasset",
+      "bytes": 271160,
+      "sha256": "5ef00c9538a00e2d97ec9845e6f4d19d506cba8babeced0b8b20c8daff482e72"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/515423bb_ncl1_1.uasset",
+      "bytes": 271243,
+      "sha256": "04708f195b628cedf59cc394ee294e01e2e9f99bfadb67ab4e5481aa54b5262b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/52f17a95.uasset",
+      "bytes": 14244,
+      "sha256": "bfcecb718c1f2f3475be9ee72513a0898380c969c8cfbe306e04257e7e83727a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/55ebb587.uasset",
+      "bytes": 209887,
+      "sha256": "bc9ee2bd27074451990db5d23e490cdd64f477745e8d2eedb84413090e45b4de"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/57ae6944.uasset",
+      "bytes": 22067,
+      "sha256": "6ce8720b81b44dc04ba95bbcb8b76c3800189758b40809c4b9aff43a0b3ba590"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/5dcd1960.uasset",
+      "bytes": 208459,
+      "sha256": "fae9a3e339b2079267add8cbc559ddfe8e23bc9c4b1a0fe31847753ba582317e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/5fce432e.uasset",
+      "bytes": 28930,
+      "sha256": "8895336cb83f9d819ff9abd82affab2c3e28d3aaed646c0a13d01ae44a6354bc"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/60822a18.uasset",
+      "bytes": 8614,
+      "sha256": "9998b678c0be0ff1476167129be6b1ae1138f855dc6bf645700d00a866bae52c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/6247fad0.uasset",
+      "bytes": 213872,
+      "sha256": "8c837e89a745403f821cecbc7f8023e16c109498193eb004251bafab0b8d7891"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/6278a9ea.uasset",
+      "bytes": 80598,
+      "sha256": "a0712df01ffa2848de0b1062b68e4e32193eaf5b189e24db7437005db351d01a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/6b492a73.uasset",
+      "bytes": 28094,
+      "sha256": "75d99912cd15704f4975cb80b101a8cf8c3a3f356a81c5e1ae65ec3007c5f895"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/6b850584.uasset",
+      "bytes": 10775,
+      "sha256": "284c6d7193f9892cd37593434ef8b57de9407c7ee8d1713076d786e62fb6bd05"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/6b868f02.uasset",
+      "bytes": 91659,
+      "sha256": "1a512d2f2d040f13015efcb746021247eb406c5c679596b7c27b4b7bdde196a0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/6d761a9b.uasset",
+      "bytes": 10162,
+      "sha256": "c5b921a4abc0a7ecbca36813e07b3ea62624beb5ba680db9161dc8c097b6ea75"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/6fa8def1.uasset",
+      "bytes": 26604,
+      "sha256": "81049c973575b2cc3fd387cca1dacba87dffe0d593d4ff459e406456be2e9f87"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/72dae4eb.uasset",
+      "bytes": 13192,
+      "sha256": "138db5240c3a0e6c6a18eeb23c0f502497b4539a535959c721d1e5719a1bbc42"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/76d4960f.uasset",
+      "bytes": 41684,
+      "sha256": "60813ad3b4a8a4f955481886a6077677c2659e1ba60b0f5ee9739b293be0f07e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/78758PICfUq_1024.uasset",
+      "bytes": 190008,
+      "sha256": "6681fc0d50aea5d561d347bfcef279e7427fc5ffa58c1fcdb1c4c6db2aa3aeab"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/7cc451fe.uasset",
+      "bytes": 219818,
+      "sha256": "acfac1abb0cfd14768fd45c44dc09451a1b0758656d8263203dc016480b23ea2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/7eff8e64.uasset",
+      "bytes": 11137,
+      "sha256": "e990c84d1c0f31f44f0622dbaf4b5ebb5d32c241ee8925d93fc4be6a5fed9ba7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/877601e5.uasset",
+      "bytes": 29930,
+      "sha256": "05a5e8cfaae30f118ba8df1c006215567e67f009bf6aef61d2413a579f9f65f3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/877601e5_ncl1_1.uasset",
+      "bytes": 29961,
+      "sha256": "75484fea931650968beed604c78c9f1c7895c50942987545dfe009a740822501"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/8c4bf203.uasset",
+      "bytes": 8421,
+      "sha256": "0bf10fe895b8b7b5d2a679747e4381fdc55ffd4aaa9ef8516a58a8aa1be2916a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/8d617a65.uasset",
+      "bytes": 260345,
+      "sha256": "58d3a5940eddcf72a902054417b9c3f7336b891b3d4309d94609de7e9b8a5eb7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/8ed64d68.uasset",
+      "bytes": 16753,
+      "sha256": "21ee7d64c4abd6ac63d1e94b75eaa7e1d3c621922d7504dfa6dd2694eb8c3134"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/9027db66.uasset",
+      "bytes": 28431,
+      "sha256": "c2bb358c1f67d28f74ee75d1b44157b663e8d685dafd0588480af08e4c1a1e70"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/92531731497993_-_副本.uasset",
+      "bytes": 217284,
+      "sha256": "6b3612b30391a7fdeebd7843885ddf52a17e3d65d9534498a7a935b83bdfa4eb"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/92558PICFug.uasset",
+      "bytes": 563631,
+      "sha256": "f3af122bf12229e842153ff5d76bd3359c2e15ed48632f1b618c4400bfedb51f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/952e0790.uasset",
+      "bytes": 192304,
+      "sha256": "ea8b4dcf83b5fbe363d04442b8a9582e6be4dd27142a14d80a2db684ae5aa69c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/9692acd1.uasset",
+      "bytes": 11888,
+      "sha256": "8f5695b48bd6b6f89685c8a756cecfe1aeda9342e4937abc31a965f29f862ab5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/97e84f97.uasset",
+      "bytes": 68498,
+      "sha256": "e0deec231b2f4bb8197c3eca3327032e356a70a2182184c5e6073a2585527ca6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/98abb233.uasset",
+      "bytes": 11743,
+      "sha256": "f2b7f5d60528d89f8deaa8a25145c9e87c812462f4112f2b83594233035433c7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/98y58PICU4i_10224.uasset",
+      "bytes": 197774,
+      "sha256": "0aa367706a172ad2174bbb7cd1189819ad3a82209283f05a431f35326a2f8a01"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/98y58PICU4i_1024.uasset",
+      "bytes": 197769,
+      "sha256": "73765ea88ef1dc1c7acc2fca99358719d2c115ef44d6efeeadd27f1673d0f577"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/9c73c6ed.uasset",
+      "bytes": 83362,
+      "sha256": "8361899fb5236b86044b1d9c907f73ad8b99aab81bdf9c82754d56930f3f4697"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/AM84_009_Merkava_Color_clean.uasset",
+      "bytes": 6244524,
+      "sha256": "aca92173b2cb955f7b4316324420dfc0c0287f7a1e9780003103bce623402d5c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/AM84_009_Merkava_Color_clean_ncl1_1.uasset",
+      "bytes": 6244555,
+      "sha256": "8f86af3c97ae0fc32eda1c82f2e5c68d1dcef4b45b1d8b56d4666d6dbbfc6b45"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/AM84_009_Merkava_Color_clean_ncl1_2.uasset",
+      "bytes": 6244503,
+      "sha256": "dcce77dedf7fd63fc101238c9c909075de92d04e72598b36dc47b3dfdb7a4030"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/AM84_009_Merkava_Track.uasset",
+      "bytes": 145746,
+      "sha256": "e12389b33825c3d530286fd638fe43ff5cda56f07eeb4e663eb0d51cd364a9ce"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/AM84_019_AugustWest_Diff.uasset",
+      "bytes": 8508357,
+      "sha256": "4be563d97f49dbc425143f13e5150767147a4ed267989e0b255d362dbc8c61e3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/AM84_019_AugustWest_Diff_ncl1_1.uasset",
+      "bytes": 8508388,
+      "sha256": "3d55e56af8677c065023ad8fe3141dcacec44634e3b55ac2286e51d7e5cefb6b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/AM84_019_AugustWest_Diff_ncl1_2.uasset",
+      "bytes": 8508388,
+      "sha256": "4f563ef30e1edc9a8e539e8ddc8531d38c4c066f8a9390e4b78038f278a23f76"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/Archexteriors5_02_grass_diffuse.uasset",
+      "bytes": 2956343,
+      "sha256": "f345d0e19dc2663df03c228b531430128fdfe1a63d3d0d31da18db23dadcbd52"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/BGSDFCSRWRFSDFSF_ncl1_1.uasset",
+      "bytes": 6187168,
+      "sha256": "6c39bb28b7a9236cffd03f2098c626bc22b07fc7d0b8f2adcffb3a7c415ad0d6"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/CNCR02L.uasset",
+      "bytes": 159241,
+      "sha256": "213792361dc7488f09d730b81c3f692bc8833a432e29be27077834083e19fa1a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/Finishes_Plaster_Stucco_Fine_Mauve_bump.uasset",
+      "bytes": 720338,
+      "sha256": "4d8e238404de1fe8d3c01887d183046fbbcd519f224975f7494bd50477d5c18d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/Head_102_D.uasset",
+      "bytes": 495612,
+      "sha256": "646092be521d763e0d4f7bd36caad11974a0ef14b97a58ecd0816488af42d4cb"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/Mat_Fiberglass_Ladder_Base_Color.uasset",
+      "bytes": 3639202,
+      "sha256": "7d27a8cdbf4b5ec11e2cc8fdc94acac6234326a0c1935b608170933b02270d0a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/NNN_occlusion.uasset",
+      "bytes": 1039479,
+      "sha256": "c9b29a711919080ebf2369546e75fb241217dd663c11d4351d62db7f63c98c3e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/PEWTER1.uasset",
+      "bytes": 162752,
+      "sha256": "dd0d8c4dce5a5a8bdbfc5e9b646eb071b056da1a114d89bcf71dad7cb158552a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/PL10_hull_Diffuse.uasset",
+      "bytes": 3469983,
+      "sha256": "a8db96fa485f74b6afdfd97fa9da55ae7a52aec1752f48c144fd0150110f4945"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/PL15_hull_BaseColor.uasset",
+      "bytes": 2218111,
+      "sha256": "d2f37d03071222c3305f01d9ce43341955f9b2eceb726a732390669319025299"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/STEEL3.uasset",
+      "bytes": 82130,
+      "sha256": "20890f9e1bf4600156ca9d0b5047c080d26334252a10b469017cb554f8814e39"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/STEEL4.uasset",
+      "bytes": 400917,
+      "sha256": "5db23398a3980d0eb3ec4e3fb713171ca8988d87a9119aadff75f3abe45a4fe2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/TX_J20S_Cop_Diffuse01.uasset",
+      "bytes": 1249252,
+      "sha256": "be6defa74e0e146d77cfc330c3cb42e41ce1fae82711b638158055ee4d960aa0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/TX_J20S_LandGear_Diffuse_ncl1_1.uasset",
+      "bytes": 10304728,
+      "sha256": "4b69270495f475af91f678f49b886de60a66c6c40d06fc94c804cd8487a450d1"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/TX_J35_Cop_Seat_BaseColor.uasset",
+      "bytes": 14862550,
+      "sha256": "33d49116340ed63efaa68436861e2efade537f47a9ad9f0f6b2a186e4f6c9b6c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/T_Ground_Grass_N.uasset",
+      "bytes": 11592681,
+      "sha256": "b2a7ec3822a22fcb154cbe7435223708ec58630a50a0faadf6ee97a1b8e407e2"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/T_Metal_Rust_D.uasset",
+      "bytes": 9290254,
+      "sha256": "23121bbeab811b0bddb60420878cd9107fba5adcb4c0a515b3bcf42a0a13c664"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/T_Metal_Rust_N.uasset",
+      "bytes": 7473866,
+      "sha256": "e2fb62e503d87f229183c1569d83e2d66e034b7d1b807925968f52332225b638"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/T_wk1ncbxja_2K_B.uasset",
+      "bytes": 6210827,
+      "sha256": "0c1f177a3dec1a59bf98b8e514c4cbcd4dd7abb6fbe7c8128590a03ef1e9ada3"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/T_wk1ncbxja_2K_N.uasset",
+      "bytes": 6550035,
+      "sha256": "fe05bcc74b7f6365f9bb99b85f2afa8ac547b89842499b6c270f5b6e5097cac0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/T_wk1ncbxja_2K_ORT.uasset",
+      "bytes": 4891651,
+      "sha256": "6378206660368839a34bca2a8ad4c3390a52fbcd44ab226e0d1c973b1ec76f85"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/a0e688c1.uasset",
+      "bytes": 27155,
+      "sha256": "163bdb3961da60a17bda82188d3598bbce934b7418bc45b5b98f3a636765e483"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/a943e1ec.uasset",
+      "bytes": 84036,
+      "sha256": "d9dce6715822da0805e60affb5eb5d4aa5f6a8e320bd412a5ff2ff18fce9d0a5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/ae7ae1fa.uasset",
+      "bytes": 25726,
+      "sha256": "ca91c9e766c9ac2e46f3fac5b9de15154336f603d1b88944565a79f9f42dea5f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/af621e7c.uasset",
+      "bytes": 4535,
+      "sha256": "737043a7feb66e824c65ca62dff45e48d7d57f2430afee73bebf180b2729cc25"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/b059fe85.uasset",
+      "bytes": 207844,
+      "sha256": "176842593bad41755eb090b9828652307cee234085bfa5015077c40749c2fe2e"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/b0a77ef2.uasset",
+      "bytes": 169384,
+      "sha256": "50f31c909b740703db5c1ae1651e59f95cd9acb182e98dc1fe032c51ae0f5c32"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/b61124c8.uasset",
+      "bytes": 88986,
+      "sha256": "34c2f4afe46c1ad0a1a23f9c741afd58b10c2621036139865542f48c7c6e9ef8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/b9ecc2be.uasset",
+      "bytes": 67999,
+      "sha256": "adc101d9c496260176940084f6dfc0812f3e7b12b622f89dc48a54c4c3a00794"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/ba890535.uasset",
+      "bytes": 26075,
+      "sha256": "dbf6dcc189ff888f2a1504f71eb67f37863ab5addf07a99cccf93052dd2d9903"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/bc29be73.uasset",
+      "bytes": 281605,
+      "sha256": "e4a714a8d7a6ea371d8b1df847349f1902f1161dc0db9e162e018f2394fb0845"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/c6d90f53.uasset",
+      "bytes": 314256,
+      "sha256": "859cf45f3423b98a832cd71c21bd8aa5d56bdf7baedc18225abb5548b189e769"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/c6f335cb.uasset",
+      "bytes": 5629,
+      "sha256": "f3d3db420ae86ad4e9ec7cc11e71dceb6b45ec92cf64bf08cbbe14345f241a4f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/cacb665a.uasset",
+      "bytes": 8895,
+      "sha256": "94ef75ca54250ffad87e3bb06eafa7b08bdba3b08f836b9ebab23499d50d571a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/concrete-21_b005.uasset",
+      "bytes": 1002563,
+      "sha256": "ed5a5afec9cd64826ea1a5d0968d95fcbda7bcfda405eb4965fb2f6b407231b7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/concretebare0054_s.uasset",
+      "bytes": 58211,
+      "sha256": "b6e7e96098fe80ebddfaf816399ae89835545e441fcc8d3ca69346c1a3d7f152"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/concretebare0131_11_s.uasset",
+      "bytes": 40503,
+      "sha256": "5ffce194633a25901a977cfb13455143ad2232182a2d97dce43e09f206083f0a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/concreteleaking0095_1_m.uasset",
+      "bytes": 37981,
+      "sha256": "74b6b5bd7ae639de744367749d1bd1cfcdd06b3d1d9782c8fac15fad0c8587ef"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/d1ca2c27.uasset",
+      "bytes": 30502,
+      "sha256": "d90c427f9f92346618b2c50b74d901e30a48a70420b532889c8ca8b0291dde6f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/d46ae88e.uasset",
+      "bytes": 80467,
+      "sha256": "6e9be4784f2b33a1f821039a73789cccbb8faaf0de17160a3354238424c04de0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/d6a0b96f.uasset",
+      "bytes": 85594,
+      "sha256": "2201200dcf14d1e30afe23ff8dfabe221f5e23b00fb5b8eafa0609c800558e15"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/d9744ca6.uasset",
+      "bytes": 13403,
+      "sha256": "190c046b4ec7e8c10d85ef2feb8ea95b7b23931f0b3bafc54ab87ba3c297e6ae"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/dacf259d.uasset",
+      "bytes": 25739,
+      "sha256": "144d0e5ae162d2d25034d97e984eaaba6879bd8c010acda0fdbba921a5320fe5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/db0a1d88.uasset",
+      "bytes": 19314,
+      "sha256": "953fe0a9f24fdfc43d61aad73b31b3a073cda030ab9d778b1066d1298ee672cf"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/dc4726cc.uasset",
+      "bytes": 25731,
+      "sha256": "899907d14b06b9909905a559d2f2fe98ce2a508f594dc63a4313f8969c94dabf"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/dd63f2d9.uasset",
+      "bytes": 104280,
+      "sha256": "8e557695f91d4a62be66fccde0f9765fac1a754ced63f867fb5077dfa2688318"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/dd6ae700.uasset",
+      "bytes": 6233,
+      "sha256": "82273ac24e4282cb053921a01dc26b308cb8f92e7b2c2e5358221cb77109714c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/e05a50aa.uasset",
+      "bytes": 7553,
+      "sha256": "0d749634e05b87cbf080ddd812862d72d1f969f5ef39abe6e4b8131a3838ed52"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/e08916f1.uasset",
+      "bytes": 268315,
+      "sha256": "915ca66f8efa9fded98b2ecd31d7086266e93ae4aac82ad3e6e03e0526ca2d9a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/e2bade6f.uasset",
+      "bytes": 8006,
+      "sha256": "be147beed273321cbc7e4ed9e0368d8ef3d5cb6c8752882d3af0c02fa72e1c00"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/e47e6e63.uasset",
+      "bytes": 184533,
+      "sha256": "dbf52c30147384a79c4e859789c0f3ca2562fa932686f3adefb1f9d821e8cb49"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/e4cd7ada.uasset",
+      "bytes": 36897,
+      "sha256": "c61275d4a7319a0ed2919d0f84e61e4c4cb4b8bdb9b0c2b6bae253e4c70c9e6f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/e5eaf792.uasset",
+      "bytes": 26559,
+      "sha256": "5cb2453d47ac95eec34ed9591dd8bf3f78d44de293907860bdb339103d03e5b4"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/e928c590.uasset",
+      "bytes": 30228,
+      "sha256": "c4899353a4623c8e2539c6fdf09a650847e23a3681356705f5aaffc2964ead16"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/ee91b8ed.uasset",
+      "bytes": 9980,
+      "sha256": "2bacc4a281a243e34ca4d92e15d32e5448a9b4e7d2c234c9fd53637811915e35"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/f0f1ac33.uasset",
+      "bytes": 24123,
+      "sha256": "6259ec19d90a2e65930acf5c8d23a69be1e4bd6ee54c907863aa14c37ef48672"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/faf3d934.uasset",
+      "bytes": 76381,
+      "sha256": "8156412dcc75a4244c8801e4dc22e4166f751ce2792cba497128e8149f7e34e0"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/fb77611e.uasset",
+      "bytes": 100480,
+      "sha256": "5c81354fc1567613092edb488c9a6a53e1647a127602f603fc27029851bd39e5"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/fc1c79ce.uasset",
+      "bytes": 93050,
+      "sha256": "d90883bbe4b2b1fb3cc8aaba4905595780106b5cdfba5b6b65ee48b45374aa65"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/fcb6b3c2.uasset",
+      "bytes": 7621,
+      "sha256": "149ff572e65e33b4a5a2e96797c2211748e03842071c6dc7f0ee6845ef70f51c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/gngfgasda.uasset",
+      "bytes": 72574,
+      "sha256": "eb5bc113fa4dded85a0a1acf857c936229c786d2fd1f2447b3a77e12c31b643a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/juanlianmeng13.uasset",
+      "bytes": 68377,
+      "sha256": "e451cba8083733fc395d7b66d9ad7aec91a0b53e32505c0e36b7e816ac9c312d"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/mat_J20_Airframe_Diffuse.uasset",
+      "bytes": 49379751,
+      "sha256": "6dcec5c6d23096d14f3c0f9218909a97b4e212aaf6a919984584ab271c6d51de"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/mat_J20_Airframe_Normal.uasset",
+      "bytes": 41460993,
+      "sha256": "7953fcd2fbb537cc1ed29a8b80b76974c713489bf5e42d720462ff1dcdaac42b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/old-hazard-stripes-texture.uasset",
+      "bytes": 1881176,
+      "sha256": "763623c1e9b073f5969cd1c75ecb9059c65e7420eb33956c477c77c7581f2eed"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/timg_image_quality_80_size_b9999_10000_sec_1495830512906_di_a339ea42192a9211c1fa576f77a7a08d_imgtype_0_src_http_3A_2F_2Fimg005_hc360_cn_2Fy1_2FM02_2F12_2FA3_2FwKhQc1SOmVmEXQtSAAAAAD0oUqs773_jpg.uasset",
+      "bytes": 78223,
+      "sha256": "d985afe55a60cded7b89366236e338c6cb08d084b469db96865252d16d80336c"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/timg_image_quality_80_size_b9999_10000_sec_1495833129189_di_f24a686af0254299389e8488c0e91271_imgtype_0_src_http_3A_2F_2Ftupian2_3d66_com_2Frenderimgs_2Ftietu_2F714_2F217148_jpg.uasset",
+      "bytes": 57186,
+      "sha256": "b2ca3ec8ad9abd81d54fc7d3d43ceb770dc81bc8a12daa4d42e9b210a79190fa"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/u_1363644376_456460382_fm_21_gp_0.uasset",
+      "bytes": 28224,
+      "sha256": "61dd727adbff8ead5971cb72ae2fa1a9415948f2a4a335c3b5b0138d59c360a7"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/u_1419556221_1275674015_fm_21_gp_0.uasset",
+      "bytes": 28416,
+      "sha256": "dad31cfb2d573a7c6fda09032bdb088f9f64bbafdc17388458e68ee8e65c292f"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/u_396614494_3305965772_fm_21_gp_0.uasset",
+      "bytes": 23624,
+      "sha256": "49871c63da65f9dd4184e89eac8af83d687065a73bf8779b68e5ffc159a6f972"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/uv2.uasset",
+      "bytes": 1203545,
+      "sha256": "d3bc9e41c74a7b41da9df527a24abdce0d739211e7bd4620403f7bc5d230937b"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/军徽军章.uasset",
+      "bytes": 1423139,
+      "sha256": "ddd40631c77bc226915676c186bb5f19cfe143c0e14f5b12d913c780df32121a"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/军徽军章_ncl1_1.uasset",
+      "bytes": 1423201,
+      "sha256": "dc56a90724ef9381fb4d75741ee423a283f73f3c5ff5e03af8cfbee214eee801"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/士兵迷彩B副本.uasset",
+      "bytes": 2464309,
+      "sha256": "a391459d7caceaac0ddf0479ad2d158bef934074c70ff1563b287e3bf3a08580"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/徽章臂章.uasset",
+      "bytes": 13731,
+      "sha256": "74859059575e108d1bfcebc695ef317b353b323672df0e5fb7c54120c79601ae"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/手_ncl1_1.uasset",
+      "bytes": 175220,
+      "sha256": "d8bb8f2aeee196431cbea5a9d0a47b5f96e7ed25478a4a4a2bd5916e6d5b19c8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/陆军迷彩B22.uasset",
+      "bytes": 2982372,
+      "sha256": "d830061e6f59fabb3d08def1a4d22cc23c4d61eb31e8e4f6092244fde1813135"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/鞋子2.uasset",
+      "bytes": 138488,
+      "sha256": "deb44962fe43a6373d83cc95a359d43ec16280bc6a790d2a8c285793995f8730"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/鞋子2_ncl1_1.uasset",
+      "bytes": 138550,
+      "sha256": "683bd68c20d80c58404c13595a58b1ba999482978887c58bc1af317f748b1ef8"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/Textures/鞋子2_normal.uasset",
+      "bytes": 244343,
+      "sha256": "abb47b95acd99b47c128cda9fb81676cac6e9f38e7c824051f930bbdb1f2d6df"
+    },
+    {
+      "path": "TacticalDemo/Content/VRAirport/VRAirportMap_sharedassets/lawn_LayerInfo_01.uasset",
+      "bytes": 1593,
+      "sha256": "3efcffd896465f3bf00379e6ba2b301a618f9003d15a422b0853b940c09fa720"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/F35/mesh/SM_F35.uasset",
+      "bytes": 501124,
+      "sha256": "6e5022d7cb000a86c463c91e80d9856f81e907b354692a20f832f74891b5d82b"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J10/materials/02_-_Default.uasset",
+      "bytes": 11371,
+      "sha256": "bceeed6ec4dcd519872dc614a128d58d9c86fc97b08877cb4f5a972f1887dbbf"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J10/materials/03_-_Default.uasset",
+      "bytes": 9054,
+      "sha256": "01a041e2af7bd8afb141afed5f9022080fc53325a0bfd2ffd374f17a82667c7c"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J10/materials/M_J10_TextureSwitch.uasset",
+      "bytes": 5169,
+      "sha256": "3e995c842e3d2133398c92db87a7251f6c9148a5c430ce6c674f49e34640bb82"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J10/mesh/J10B.uasset",
+      "bytes": 270341,
+      "sha256": "f088235d9ce0c325251b6022010a1c7a311ef8cb4e0078eb5b31e5107f88ea98"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J10/texture/j10b_d.uasset",
+      "bytes": 144927,
+      "sha256": "03c4cab6311295f38419a65ccf7d9a350fadd9bab52c70be03fe3be2eb7f2460"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J10/texture/j10b_d2.uasset",
+      "bytes": 195111,
+      "sha256": "8ad2bb62c043725ac2d831df2173c55a3091e35c018ae3d4ed6a7b8b4831844f"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J20/materials/03_-_Default.uasset",
+      "bytes": 12666,
+      "sha256": "5c72c6cb9d381663e64ed0c08c6d27e3d5316420ea9b418b352c173011778119"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J20/materials/M_J20_TextureSwitch.uasset",
+      "bytes": 5377,
+      "sha256": "44669c66edc173e22f58e7107161233ee7c66a7e8db50557e38189a523ac1f86"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J20/mesh/J20S.uasset",
+      "bytes": 3175076,
+      "sha256": "769b2795b494f413e6be4ccf0f37ba66b7bdd22923638e6f8a46801b4a5f2b59"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J20/texture/mat_J20_Airframe_Diffuse.uasset",
+      "bytes": 49379792,
+      "sha256": "10e1459219a38de135a0fcc31cbe0be5e10780ccc9d09278d973960ee735e12e"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J20/texture/mat_J20_Airframe_Diffuse2.uasset",
+      "bytes": 62454729,
+      "sha256": "cac81efbf60d15ef28ffcc0580b636a01ad24c2dc00cb3b7a952c4d59d379ebc"
+    },
+    {
+      "path": "TacticalDemo/Content/plane/J20_Map3/mesh/SM_J20_Map3.uasset",
+      "bytes": 2409779,
+      "sha256": "7f6d792e49b2f3b62ee639eee4ae1ede54bf6fc34f40f86f7d413045165b3364"
+    },
+    {
+      "path": "TacticalDemo/OPERATIONS.md",
+      "bytes": 22080,
+      "sha256": "0ae9d44532a725e8efd1fac7a48bb96ce4865d558fd53b5eb478635bae8bcf85"
+    },
+    {
+      "path": "TacticalDemo/README.md",
+      "bytes": 1041,
+      "sha256": "75f059751d516e84cca21680358fb9f23070dd192b7d83a3bb76ed8f1d102c52"
+    },
+    {
+      "path": "TacticalDemo/Scripts/ArchivePortable.py",
+      "bytes": 3443,
+      "sha256": "d202c591946409e306845374bfecb5540a414dd573f8649ca52f03f34016d644"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Build.ps1",
+      "bytes": 453,
+      "sha256": "47e4584ec574c8200ed561db37b3a3f468cfbf1cd2362c282c8974b4399b6a6b"
+    },
+    {
+      "path": "TacticalDemo/Scripts/ChatHttpFixture.ps1",
+      "bytes": 1691,
+      "sha256": "7d89d0cfef781e8b4804dea392fbec9521ad6b6dcb6dc00bb56f497ac54325e2"
+    },
+    {
+      "path": "TacticalDemo/Scripts/CreateAssets.ps1",
+      "bytes": 870,
+      "sha256": "2528af20f2ef3ef7dd6a6a0f86934d01f770c0280cc5706c654c1f604393afc5"
+    },
+    {
+      "path": "TacticalDemo/Scripts/CreateDemoAssets.py",
+      "bytes": 3314,
+      "sha256": "2391eb15954b598a46f5dad0f0cccfbac28237fd046b60f4def7ddea862bb6bc"
+    },
+    {
+      "path": "TacticalDemo/Scripts/CreateHighlightMaterial.py",
+      "bytes": 2031,
+      "sha256": "b5aec78f06b3fa8d5e603dc079fb0a225394b8673cdcca242f4f456896b57ca5"
+    },
+    {
+      "path": "TacticalDemo/Scripts/CreateTextureSwitchMaterials.py",
+      "bytes": 1839,
+      "sha256": "7a6b4d3c2ab7de035432dad7810885401d4981994510aa5e0cd0e31a0ebd185d"
+    },
+    {
+      "path": "TacticalDemo/Scripts/ExportResourceIndex.py",
+      "bytes": 4643,
+      "sha256": "bf425ccb352756bf0b0d5c9ed1bbd532f8cf5d2dda7e6cae1bba24d7b639dec9"
+    },
+    {
+      "path": "TacticalDemo/Scripts/ImportMap3.py",
+      "bytes": 8324,
+      "sha256": "4b1233a2a7bc6db917ef935785ed36b09ffd36f95e51aeb6a946c9b283d4da9a"
+    },
+    {
+      "path": "TacticalDemo/Scripts/InspectAircraftTextures.py",
+      "bytes": 1441,
+      "sha256": "dae3f1899a94308db1d37ca7ad8b00ea2985f0ec8fefc4ffefebaf59a029a2c4"
+    },
+    {
+      "path": "TacticalDemo/Scripts/InspectAirportPlacement.py",
+      "bytes": 9292,
+      "sha256": "fbb24f917ecb068e6511bfd739a74c127ec4dc6c62bc6b872997cd193b7cc88f"
+    },
+    {
+      "path": "TacticalDemo/Scripts/InspectImportedAssets.py",
+      "bytes": 1590,
+      "sha256": "768628a6ba3b3b62118ecc2091ea12ff2cace97a5a416b220fd722eb1339de12"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/ExtractAircraft.cpp",
+      "bytes": 2627,
+      "sha256": "a887ef1fa31b30e0f2d1166064e44dc28fb76dc2a54c3f11a815d1659fe1bd09"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/ExtractScene.cpp",
+      "bytes": 3955,
+      "sha256": "15a09abef01f861f56601cb7778850d2b14bbc91d1c71b427a282d00cb461d33"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/ImportMoveAircraft.py",
+      "bytes": 3734,
+      "sha256": "b46b1632ddb5b543bf2efa0c86e58b71349f6b2079c6c26db957e02e62bdc0db"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/InspectMoveSource.py",
+      "bytes": 3099,
+      "sha256": "fffbbd25fca213fe08c4fea5c1bd8f870429888251ccdbe2ed3b386f81f7a35b"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/MaterialBindings.py",
+      "bytes": 1847,
+      "sha256": "8feb4e720ef0e8d4a49fc5d204d38f065e47ca38869d4f4c3a2ebd7b281339c1"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/NewEnvironment.txt",
+      "bytes": 149,
+      "sha256": "168c2bfee4959e491f16b4f8fe263d1c0cb005dfd15575affe49ffe07b978d82"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/PrepareInputs.ps1",
+      "bytes": 1542,
+      "sha256": "d68c6e1bbc31de29215404a6379ed255130847054bccce5d97f2cd006eae6173"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/PrepareMoveMaterials.py",
+      "bytes": 2241,
+      "sha256": "05b75e09d8cfdc74fe516300185c88f31d9d0055b913b79dfd46f55c66597007"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/README.md",
+      "bytes": 4682,
+      "sha256": "1a67333591546a2d96ef370ca37bbdb5fc25b34f7553d97e81f3fc12a3e38497"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/RestoreBindings.py",
+      "bytes": 1318,
+      "sha256": "d314eb33146afb7612b3156f3ea6e5e1e4e795b7d16c13097ef2081c8bf210c3"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/TuneLighting.py",
+      "bytes": 720,
+      "sha256": "13c397b460dc4f4cdac03791258fb98a8a172fc2bdc3e51a3a4a748861603582"
+    },
+    {
+      "path": "TacticalDemo/Scripts/PackageProject.py",
+      "bytes": 11734,
+      "sha256": "73ca0a39261a5bcf4a44a6f545061843dd87333b192c1d1d1ae279cff0159d8c"
+    },
+    {
+      "path": "TacticalDemo/Scripts/PortablePaths.ps1",
+      "bytes": 1432,
+      "sha256": "1fff681167d5bbe71097336fa5e64f0836b00427d234350e48456d90fb524eb5"
+    },
+    {
+      "path": "TacticalDemo/Scripts/PrepareImportedAssets.py",
+      "bytes": 2447,
+      "sha256": "ed8e917f298748e4dd159cf542eaf81051da98b5cb6e7e98738daa90452e62c8"
+    },
+    {
+      "path": "TacticalDemo/Scripts/RunDemo.ps1",
+      "bytes": 1782,
+      "sha256": "c22db87cd62647028986e2fab88854ccd683eb648ce366d72b5d1080fea846f1"
+    },
+    {
+      "path": "TacticalDemo/Scripts/SetupPortable.ps1",
+      "bytes": 2074,
+      "sha256": "f0169da4c7e584355e33f9384acd4c1ed4a8281313aeb59665204733ef93175c"
+    },
+    {
+      "path": "TacticalDemo/Scripts/StartQwen.ps1",
+      "bytes": 3688,
+      "sha256": "453fdd81aea7f7b12105aa1713c9fbec1b9016de5f0c75a0e272a8b8caa0501c"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Test.ps1",
+      "bytes": 1272,
+      "sha256": "61de39cd31514354ac90f7a12f1dba2dbbc8eb4ab61ed81c26370f5c09843d88"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestChatHttp.ps1",
+      "bytes": 1669,
+      "sha256": "60e24e6152d6083535c85daa49c38ec075b8896d4255561ee5975332f02af64d"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestCommandCatalog.ps1",
+      "bytes": 1062,
+      "sha256": "5e8aa80ee237a4d1c60f992f4036a4f64c2553e57522393012a228e6cadd47fa"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestDemoEntry.ps1",
+      "bytes": 1316,
+      "sha256": "73a68945b770bc3f68807e45c480a13809f5df5db8f8db2648f885a35ee86c17"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestFlightPreview.ps1",
+      "bytes": 1553,
+      "sha256": "21f5682a420d6f3e534925368f05626c049dad6893e5725a54fe6acdad356a97"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestFormationLanguage.ps1",
+      "bytes": 1976,
+      "sha256": "bfc75bc6ef25a07f1229136672423beb0f3e35cb5d9d4fe4dd0d687c34192243"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestHighlight.ps1",
+      "bytes": 1933,
+      "sha256": "651838aad8875745ca7a9cd50442e9d79bc997c4d68ee77fc9f20bdcb8c1770a"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestImportedQwen.ps1",
+      "bytes": 1961,
+      "sha256": "0d78f791e67378b69b4e5ac177f26c77dd3daab1c1b304346702c1cb43540be2"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestLayout.ps1",
+      "bytes": 2011,
+      "sha256": "1a8eece39adc42dddda040440d5d8b12bfc67b09bbf048fd87d08f0a82ae8001"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestLayoutQwen.ps1",
+      "bytes": 1182,
+      "sha256": "8302bb7c7712f7ef59683d6853d9c37f549117ebe827af3c2149a39bd13f30c1"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestNameplates.ps1",
+      "bytes": 1915,
+      "sha256": "6c366035c1ed6d3c43b6a84605bfeee7de202978094db01c4bcb8762dd0222da"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestPackageVerifier.py",
+      "bytes": 2234,
+      "sha256": "3260929f4cb0c2d477308fd8565d53adfa186887c343fb87c123cf91bee83e4b"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestPortableValidation.ps1",
+      "bytes": 3687,
+      "sha256": "23e89d53e4b751fae6ce890729b639b4caf57361629ecbf673ef383d051b6bb6"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestRealQwen.ps1",
+      "bytes": 1057,
+      "sha256": "ff4203985049abc59dd16c9e35cc12c2651802607161412551cc8a4c06355fb4"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestSceneSwitch.ps1",
+      "bytes": 2013,
+      "sha256": "3142b07c9f02fbaba14ca78bb731ce40f32963ced082bc033e044973600f16e6"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestSelectionAndRoutes.ps1",
+      "bytes": 1974,
+      "sha256": "86783789073a00faf3514839fdc362f631d0acf086fad62298282fbf62a93380"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestSetupWithoutQwen.ps1",
+      "bytes": 6137,
+      "sha256": "242e9baddb6a8e78c2fb517e518b3611a053fa1091b70fecab8b3f891c0f7757"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestStartQwen.ps1",
+      "bytes": 3267,
+      "sha256": "0793bf7eba2a7bee50f9408f017cd8a345244c2c7ce9d992f49fcaf077e5f452"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestTextureQwen.ps1",
+      "bytes": 1983,
+      "sha256": "bed16374a71e761d1dbcd529d804be76faa2803806ed2df16ec311e8e551352f"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Validate.ps1",
+      "bytes": 5820,
+      "sha256": "73b6bb61257f67ec9ceb8760adbf7bba71857ceb5fe37ae9670d48458a0a2575"
+    },
+    {
+      "path": "TacticalDemo/Scripts/VerifyDemoAssets.py",
+      "bytes": 534,
+      "sha256": "c47475248874d8aa32a808fb21a672f907b832a09e3ff586faea4a1b176a84d3"
+    },
+    {
+      "path": "TacticalDemo/Scripts/VerifyMap3.py",
+      "bytes": 4234,
+      "sha256": "bfb3be45766076ea19f6fcee1b41b49112e001f6a381d6dc5020712dee9a2441"
+    },
+    {
+      "path": "TacticalDemo/Scripts/VerifyScenarioChange.ps1",
+      "bytes": 2139,
+      "sha256": "783304b26919ef7cef592d5de5453cb8fe9f584fe183bc361363ff87c76be352"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo.Target.cs",
+      "bytes": 350,
+      "sha256": "7fd6888376aa04bf21d39ef2aa4c6a762e97a262afc40279cd804130a47514cf"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/ChatProtocol.cpp",
+      "bytes": 33180,
+      "sha256": "fa227dd2c6adc39eac30e2ed576ac6d922344dfe66b36fdc940306c6990778a9"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/ChatProtocol.h",
+      "bytes": 540,
+      "sha256": "7b0aac52e4584334284ba5308ba8c30c7e6a163a0e45c2342a35de06932eb514"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoControlWidget.cpp",
+      "bytes": 31957,
+      "sha256": "adcb26c23c11cb33bb8db2f105c3b914f61bf32e4f65780922290a9140552965"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoControlWidget.h",
+      "bytes": 3356,
+      "sha256": "9bc4f9fc18500ec1723987b2983e65e6d13cbc045e189000626ce2fc9317945c"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoGameMode.cpp",
+      "bytes": 37978,
+      "sha256": "d855c7245198f1c53b6f180159b5cd7f6ed61e7cd069abf3b3a04ee6337be768"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoGameMode.h",
+      "bytes": 2598,
+      "sha256": "5a635ec9427f6a611cff2f1645a853635c3996f31c98eba91896036a1feecbd3"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoGameModeHighlight.cpp",
+      "bytes": 5007,
+      "sha256": "9de4a7c964c9304e7a4c3205226bbe4fabb6c792518a1c1603619b73b6d9c614"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoGameModeNameplates.cpp",
+      "bytes": 3474,
+      "sha256": "1b2f79366ad858705f13e81ff5113af769e2f31eda95491b8cd9c7e671809160"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoGameModeSelection.cpp",
+      "bytes": 5989,
+      "sha256": "e006ed00fe690df726c05bca02e97ba8e7a87345222291764aeeb9100063965e"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoLayoutWidget.cpp",
+      "bytes": 28512,
+      "sha256": "43cbd139887cdddda4a39a5f40fe103d854bad2e4d86f9a0f54d18724ad66b6a"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoLayoutWidget.h",
+      "bytes": 4094,
+      "sha256": "f880aace29575f09f02660ba4b25f185074d30994803acd394de861639018f3c"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoNameplateWidget.cpp",
+      "bytes": 6529,
+      "sha256": "3d556059e94df15c449116bb536868ff405f8195bf1948fa90efa671b3ba705e"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoNameplateWidget.h",
+      "bytes": 896,
+      "sha256": "d4dd05884c91e0adb65e2988b393ff3fdd446f391f11d6d00baaa31231fe28a4"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoRouteWidget.cpp",
+      "bytes": 12845,
+      "sha256": "9a45bc73119f8c5e9adfc3b5e29dbf867954a06a9622f7741254cab9188771bf"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoRouteWidget.h",
+      "bytes": 1792,
+      "sha256": "a873108c5c1a6c0bda1081d4b6bb389f7771bb2b53b9aa59e2f0f2a1f2f33a5f"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoScenarioManager.cpp",
+      "bytes": 17443,
+      "sha256": "6f7ab3c4a1af53ffe316d21c07a7bad72d580d065c56c61f201af4e4c7d74303"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoScenarioManager.h",
+      "bytes": 3338,
+      "sha256": "779f3ee1fd022586fa72b20f4f68876596291c5320af5bc981cb468fee1f093a"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoScenarioRoutes.cpp",
+      "bytes": 3415,
+      "sha256": "d90d5d780ff7c9d1538c2f6ff4d5f4f10c436e36d276a729b87d94c69f1ccbcf"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoScenarioSelection.cpp",
+      "bytes": 3144,
+      "sha256": "ed110dcd44b6450cf8219be2a02af286a8b15963c1584452a2ef7abbd1f34c21"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoSelection.cpp",
+      "bytes": 1213,
+      "sha256": "7b871f2dea612e2a21f3a401a75e5c1e497167902608cabb1ea630ffcb589afa"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoUnitActor.cpp",
+      "bytes": 1385,
+      "sha256": "a992d18aad472718447dbb10e2e97b06414ce25ce871ad9cd37ae25648747d02"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoUnitActor.h",
+      "bytes": 865,
+      "sha256": "13742f3c4080c8966082b1831e46405bca8a9d5affbc63f8fa2e0f1c1a1d63d0"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/EquipmentLibrary.cpp",
+      "bytes": 15427,
+      "sha256": "bc561eeb9d74b22cc1c24827463b46db67732332ea70c365dbd1b07751ba40e4"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/EquipmentLibrary.h",
+      "bytes": 2023,
+      "sha256": "a6a0892e511a3383c44f56213b355a21bbdfe55a12365204cd5b7ec70bd054d5"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/FlightPreview.cpp",
+      "bytes": 15811,
+      "sha256": "d14d054086d46cd0b36e6ccc3037d8858dafeb847a12ad82a3689af9f65fe87d"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/FlightPreview.h",
+      "bytes": 2404,
+      "sha256": "db69b70cbc0ca1a2f78c15017846294dd1616f9ad113f954be04e73dc7d6b378"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/FormationCommands.cpp",
+      "bytes": 13837,
+      "sha256": "74933fa471dd6bd5c2d19e4f47a4e76d2ac7e27d56defdfc2a1bc1b7aa7f3914"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/FormationCommands.h",
+      "bytes": 697,
+      "sha256": "27a59f00652e498f47e28c0d15dba34accc094f30b30897a3ee7d515f042c157"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/FormationMembershipCommands.cpp",
+      "bytes": 11206,
+      "sha256": "5d3dc9a9c9ee822279f555a2d1bbcdd9eec4edea7a3e6b3e601e1cad6283ead2"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/HighlightCommands.cpp",
+      "bytes": 4689,
+      "sha256": "0a226c6abef8e411aa7527636bd05c6dd77fe08c86da0b39de305132400353e8"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/HighlightCommands.h",
+      "bytes": 277,
+      "sha256": "eff697bc2153b3428ba376317f5382e1b593c1ad45a43a98a2ba9ae7281a47c5"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/ScenarioConfig.h",
+      "bytes": 850,
+      "sha256": "d1fe17c6358e260d3bb9866af0e1005360c671a4916aac5160f547a9dffe7b96"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/ScenarioConfigLoader.cpp",
+      "bytes": 15753,
+      "sha256": "7a824367488f2c047317880573e1b93978bcd0672bd00e81bb210bed48ac7179"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/ScenarioConfigLoader.h",
+      "bytes": 391,
+      "sha256": "693b0d95cdea9c08e1aa9e0fef60b047989ade807d84b48e332bcaf77aa1e92d"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/ScenarioPresetStore.cpp",
+      "bytes": 5605,
+      "sha256": "17db5fba674a85b51c48a257981f5c673fa83e29c912f04f7a67f37d7d446e39"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/ScenarioPresetStore.h",
+      "bytes": 751,
+      "sha256": "fbb7e97f09edc10d436beae91bda16179fc278ff1d6ce372e9a5b64b67a6b722"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/SceneLibrary.cpp",
+      "bytes": 2622,
+      "sha256": "0acc274e590e172908758b0186505f8b6463f612ace3d33f32d71d647fab76a3"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/SceneLibrary.h",
+      "bytes": 295,
+      "sha256": "4fd822747a46caae056a17e08814e812117e5ddc14d74c50a083d69a9f2713e1"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/TacticalDemo.Build.cs",
+      "bytes": 416,
+      "sha256": "314f1edf342eb0b498f7fe480d98a18e7f52cdacae5d4d6152364088123a7023"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/TacticalDemo.cpp",
+      "bytes": 120,
+      "sha256": "09fa3bba67156e667d2e73ab713c07d6d8a010a9a4f7dd43e32004ef139974bb"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/ChatTests.cpp",
+      "bytes": 30345,
+      "sha256": "8cea8e31a86bd323e07625e47eef12b433e27919cd5a890858920bc5afea3071"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/CommandCatalogTests.cpp",
+      "bytes": 6407,
+      "sha256": "115a6e34823c18bd3d54eb56672357b6cad8dec365ec77db3b701c9319b7a0af"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/FlightPreviewTests.cpp",
+      "bytes": 7418,
+      "sha256": "319cf0c16f1c3deb96423b53c5c9bfde83475e31b090fb69ab63f9cf47ba615b"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/HighlightTests.cpp",
+      "bytes": 11622,
+      "sha256": "64b3a8646ed6dd1bd66a7fad0beb6b4f88d511495363caf9bb8e63e394c1f2ed"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/ImportedAssetsTests.cpp",
+      "bytes": 7343,
+      "sha256": "1bc260675cfb1c17bdd1a68437a6a56b60ac09d2e396d92fc46c4b9343cab37e"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/LayoutTests.cpp",
+      "bytes": 47648,
+      "sha256": "e55f4dca084db2d32dd7526d8df02ad1b170a45363bdbbe803b2dfa1454b1299"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/MultiSelectionTests.cpp",
+      "bytes": 9677,
+      "sha256": "804ce98d3962174420a5362c0be262c6b105f316c7d517a1f970daeb6f855dab"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/NameplateTests.cpp",
+      "bytes": 4940,
+      "sha256": "2ae8367ecb570218b31d3ce56d6644da02ea138b0c0855d18281628a98d56527"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/RouteEditingTests.cpp",
+      "bytes": 8956,
+      "sha256": "990ee2f887a3ef64f191ee1e6777c650ca7a056950adc7e9ff3052363ef5d618"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/ScenarioTests.cpp",
+      "bytes": 5731,
+      "sha256": "0e8eb091d8a709415445c78323d93377958066452ef575b509d7d74838fffce4"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/SceneTests.cpp",
+      "bytes": 11709,
+      "sha256": "9c4cb3d160144d7eed8fe65d9ae154c64771f470e47adf06884347efa41b124b"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/TextureTests.cpp",
+      "bytes": 11711,
+      "sha256": "3f26d074e7bc6899a27a4ff87c184b137607e22d9ed113452605ec617c8590f8"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemoEditor.Target.cs",
+      "bytes": 364,
+      "sha256": "c01364482d56e4482f7b5f525e46e6b4f47697139a77271eeac1612e16305148"
+    },
+    {
+      "path": "TacticalDemo/StartDemo.cmd",
+      "bytes": 283,
+      "sha256": "6a7e47fc3e74c34ca453efd80a5c9968ccbe3ff3071ae11ed79fbfa9576717d0"
+    },
+    {
+      "path": "TacticalDemo/TacticalDemo.uproject",
+      "bytes": 386,
+      "sha256": "7f4ceb643be75cabc0dab568d3cb2e53b1ba7b1616b48a3135a002750c457a57"
+    },
+    {
+      "path": "VerifyPackage.py",
+      "bytes": 1323,
+      "sha256": "433da981d736b4e0b4ce17e62ca69dd45005622598de89ecd83623d299c107ff"
+    },
+    {
+      "path": "docs/GITHUB.md",
+      "bytes": 5127,
+      "sha256": "eb90109698366844fbe3407a595d5c6cfb51ca6b40bb067007a798ce5ca68e64"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-23-json-actor-demo.md",
+      "bytes": 5282,
+      "sha256": "f42daa347d7e60d41157c91bc503ee70e2ad8f1b249aa0a5634ac23e341eca54"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-24-window-chat.md",
+      "bytes": 715,
+      "sha256": "b30503a3bfc37d47b5b3f5a6bb732e6cbc5505c6adcf548d23962b9f551d2aab"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-24-window-motion.md",
+      "bytes": 2209,
+      "sha256": "4e55c844a47de16f620d55bc0569220f6af2e5556ff6f4d45b3d8092c49dfdba"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-29-chat-model-and-routes.md",
+      "bytes": 3390,
+      "sha256": "afdd15c63e6c9f45c432988080ad91c5b00b48a59f6bf7b1d5532a52ff1687eb"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-12-formation-layout-roadmap.md",
+      "bytes": 10635,
+      "sha256": "9337e367162930ee95e4510c5d7d79d552a3e036eb5b3be334ff32153f807983"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-23-json-actor-demo-design.md",
+      "bytes": 7314,
+      "sha256": "1c86cf40d95326894e6148695b1db15a74a2998b92485757567bffdc5a1c188b"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-24-window-chat-design.md",
+      "bytes": 1205,
+      "sha256": "7263d4edd29af677945977977c2db74459c5c40cc04ea9271726e32a6c6da5ce"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-24-window-motion-design.md",
+      "bytes": 3154,
+      "sha256": "4c50a2ba9fca9a17eb39e4f37815f1d67094f579a2a688381fe82def257f89b4"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-29-chat-model-and-routes-design.md",
+      "bytes": 3247,
+      "sha256": "7c5cb175b8e43b1b248ae140abf04c98ec2ac16303f3ab54a35309954b7346cc"
+    }
+  ]
+}

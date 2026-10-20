@@ -1,0 +1,7 @@
+{
+  "scenes": {
+    "airport": {"name":"机场", "asset":"/Game/VRAirport/Maps/VRAirportMap"},
+    "demo": {"name":"原始演示场景", "asset":"/Game/Maps/Demo"},
+    "map3": {"name":"map3", "asset":"/Game/Maps/map3", "scenario":"Map3Scenario.json"}
+  }
+}

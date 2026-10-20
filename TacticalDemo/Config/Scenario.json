@@ -1,0 +1,10 @@
+{
+  "scenarioName": "JSON Actor Demo",
+  "units": [
+    {"id":"RED01", "modelId":"aircraft_default", "type":"aircraft", "side":"red", "count":3, "position":{"x":0,"y":0,"z":5}, "spacing":6, "route":[{"x":0,"y":0,"z":8},{"x":10,"y":10,"z":8},{"x":20,"y":0,"z":8}]},
+    {"id":"BLUE01", "modelId":"aircraft_default", "type":"aircraft", "side":"blue", "count":3, "position":{"x":14,"y":0,"z":5}, "spacing":6},
+    {"id":"VEH01", "modelId":"vehicle_default", "type":"vehicle", "side":"blue", "count":2, "position":{"x":7,"y":18,"z":1}, "spacing":6},
+    {"id":"RADAR01", "modelId":"radar_default", "type":"radar", "side":"red", "count":1, "position":{"x":-10,"y":18,"z":2}, "spacing":10},
+    {"id":"TARGET01", "modelId":"target_default", "type":"target", "side":"blue", "count":2, "position":{"x":-5,"y":-18,"z":1}, "spacing":8}
+  ]
+}

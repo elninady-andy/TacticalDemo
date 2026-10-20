@@ -1,0 +1,181 @@
+{
+  "files": [
+    {
+      "path": "PROJECT_MAP.md",
+      "bytes": 2727,
+      "sha256": "f6cb9f2ba69b7ce5c9952b503c7ee80adb26e535306c6df61c4471d5545cb4a7"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 35188,
+      "sha256": "9fdc2ba427aa169e09ba588736b778aeaae0a7955c70d8aa33849ad3c670f958"
+    },
+    {
+      "path": "ResourceIndex/AssetIndex.csv",
+      "bytes": 178536,
+      "sha256": "e76e4f74490ed66393d3c09815aeb627706a99803b0539ad96257d6b27e2c195"
+    },
+    {
+      "path": "ResourceIndex/AssetIndex.json",
+      "bytes": 439922,
+      "sha256": "8f1158ff4044bbc30bc00060b4d4169cf16b1d0a80f6919cf095f60bd95a897d"
+    },
+    {
+      "path": "ResourceIndex/MAP_RESOURCES.md",
+      "bytes": 110625,
+      "sha256": "6497cb32a04407a516816fa77245abd04411a11237c3900cc58944634a2e9256"
+    },
+    {
+      "path": "ResourceIndex/MissingDependencies.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "TacticalDemo/Config/Map3Scenario.json",
+      "bytes": 374,
+      "sha256": "5da4cf04c7376cb7dd2c3da567afb496dbd8caaed0331380c42e4ad8f7343fdf"
+    },
+    {
+      "path": "TacticalDemo/Config/SceneLibrary.json",
+      "bytes": 258,
+      "sha256": "5b0f6878fa2a7282c85d93e9cd80e17e0993d22c8ae8bf1b7be3c2da20bbb141"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Airport_Object905.uasset",
+      "bytes": 127153,
+      "sha256": "5c9b4e83f26d26e7bfb4b83d37534ebfc60da46b965fb1d90e71f8b093161552"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Airport_Object906.uasset",
+      "bytes": 127111,
+      "sha256": "45e047aaf6b6d753492cbe09a2fc730b0dc1ea2afb4a6e65b951d13aa29f4a59"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Airport_Object907.uasset",
+      "bytes": 127044,
+      "sha256": "f0c9d2f0f6a5e6c747105f10157abaf76b667c6c60d5ed43711b7339ecf5c3b6"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Box008_4.uasset",
+      "bytes": 56517,
+      "sha256": "d0b430fd6cd43bfb19fb93c770767100de0e2e5167ce43f4d5195c8d9d9120b9"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Object997.uasset",
+      "bytes": 25670,
+      "sha256": "680bcbfcb140e3e5bed057b28a804fd23094107562bff35f53f16df57d062acb"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Object998.uasset",
+      "bytes": 25654,
+      "sha256": "b4fbc3207d1d2ab1be14467c81a08b78fe2336c1240cfe861a150372a3992459"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_bighouse_Object999.uasset",
+      "bytes": 25666,
+      "sha256": "eacafe7f6f202a4c36d2756cea8f2e396c76c4d5ca4855bc437b98e78060322d"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Landscape1.uasset",
+      "bytes": 561327,
+      "sha256": "5eeee396ce8a8034ebb959ad6e6cb8f80437506af3c0c1a31a99542ef0c1ce50"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Geometry/NewEnvironment_Mountain.uasset",
+      "bytes": 8912462,
+      "sha256": "49359d7a576304b2a26665e4f23e9edb362dcecdc6841131ed11bb471844597f"
+    },
+    {
+      "path": "TacticalDemo/Content/Map3/Materials/M_Map3Terrain.uasset",
+      "bytes": 4312,
+      "sha256": "06e2632c7a3a7c17b3b87f349f7ae13ccd17ada9383ae211195b30789e6ea59d"
+    },
+    {
+      "path": "TacticalDemo/Content/Maps/map3.fbx",
+      "bytes": 170542272,
+      "sha256": "1cb5593c8576b2afb837688dba59d65268d3dd02a904042677b8ca1f66d7d281"
+    },
+    {
+      "path": "TacticalDemo/Content/Maps/map3.umap",
+      "bytes": 144505,
+      "sha256": "795ba264bfe0c2c23447e0face8b95a3290beed145e88b3479788845d36da046"
+    },
+    {
+      "path": "TacticalDemo/OPERATIONS.md",
+      "bytes": 13814,
+      "sha256": "6de60e12f91bf0adb55bafbfa9f8ed1b3fd81095b12b7e99ba4371d25e34c612"
+    },
+    {
+      "path": "TacticalDemo/Scripts/ImportMap3.py",
+      "bytes": 8324,
+      "sha256": "4b1233a2a7bc6db917ef935785ed36b09ffd36f95e51aeb6a946c9b283d4da9a"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/ExtractScene.cpp",
+      "bytes": 3955,
+      "sha256": "15a09abef01f861f56601cb7778850d2b14bbc91d1c71b427a282d00cb461d33"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/MaterialBindings.py",
+      "bytes": 1847,
+      "sha256": "8feb4e720ef0e8d4a49fc5d204d38f065e47ca38869d4f4c3a2ebd7b281339c1"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/NewEnvironment.txt",
+      "bytes": 149,
+      "sha256": "168c2bfee4959e491f16b4f8fe263d1c0cb005dfd15575affe49ffe07b978d82"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/PrepareInputs.ps1",
+      "bytes": 1542,
+      "sha256": "d68c6e1bbc31de29215404a6379ed255130847054bccce5d97f2cd006eae6173"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/README.md",
+      "bytes": 2895,
+      "sha256": "ff4742ad0cbdc96c66c0ee47cbece4a0dcc8e9826ab8d4bb0172f1b9cbade834"
+    },
+    {
+      "path": "TacticalDemo/Scripts/Map3/RestoreBindings.py",
+      "bytes": 1318,
+      "sha256": "d314eb33146afb7612b3156f3ea6e5e1e4e795b7d16c13097ef2081c8bf210c3"
+    },
+    {
+      "path": "TacticalDemo/Scripts/TestSceneSwitch.ps1",
+      "bytes": 2013,
+      "sha256": "3142b07c9f02fbaba14ca78bb731ce40f32963ced082bc033e044973600f16e6"
+    },
+    {
+      "path": "TacticalDemo/Scripts/VerifyMap3.py",
+      "bytes": 3873,
+      "sha256": "a21eef1634c98243f5c9caf6123de424722dab7dc2b88c658460d8ff931a6f0f"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoGameMode.cpp",
+      "bytes": 27489,
+      "sha256": "a0a522f0369e6ca3c439dd636af043bda6c75b9e4e73c509df91c5df940847db"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/DemoScenarioManager.cpp",
+      "bytes": 14747,
+      "sha256": "ad883a41d9205ac019021f0a6082546b43ff7fcb0ad48aa4ae6f5022404a7c48"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/SceneLibrary.cpp",
+      "bytes": 2622,
+      "sha256": "0acc274e590e172908758b0186505f8b6463f612ace3d33f32d71d647fab76a3"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/SceneLibrary.h",
+      "bytes": 295,
+      "sha256": "4fd822747a46caae056a17e08814e812117e5ddc14d74c50a083d69a9f2713e1"
+    },
+    {
+      "path": "TacticalDemo/Source/TacticalDemo/Tests/ImportedAssetsTests.cpp",
+      "bytes": 6970,
+      "sha256": "6855436b1ace8a091a2b50232fbe9c36d9dc3778628749fa7d4708b22431a1b6"
+    }
+  ],
+  "date": "2026-10-15",
+  "scope": "map3 integration: changed or added project files plus provided source FBX; original FILE_MANIFEST.json remains the migration baseline."
+}

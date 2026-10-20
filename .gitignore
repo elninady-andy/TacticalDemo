@@ -1,0 +1,38 @@
+# Machine settings and credentials
+/LocalPaths.json
+/LOCAL_SETUP.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated UE/IDE files
+**/Binaries/
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+**/.vs/
+.idea/
+*.sln
+*.suo
+*.VC.db
+*.pdb
+
+# Local model, environments and runtime output
+/QwenRuntime/model/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Original duplicate material and temporary work
+/OriginalMaterials/
+/work/
+
+# Full portable snapshots include local DLLs, model and personal scenarios.
+# The GitHub source snapshot is RepositoryManifest.json.
+/CURRENT_MANIFEST.json
+/FILE_MANIFEST.json
+/ResourceIndex/MoveIntegrationManifest.json

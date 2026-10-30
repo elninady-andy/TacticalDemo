@@ -1,5 +1,9 @@
 # 项目状态
 
+仓库公开与MIT代码许可（2026-10-30）:
+- 按用户要求公开完整elninady-andy/TacticalDemo仓库；用户已明确确认有权公开当前605项地图、飞机模型、材质和贴图资源。新增原创C++代码、Python/PowerShell脚本和原创文档的MIT许可，README、THIRD_PARTY和GitHub克隆说明同步。Content美术资源、UE、Qwen与其他第三方组件不纳入MIT，保留原始权利和许可，具体素材作者及原始许可记录仍待补齐。
+- 本轮仅更新许可、文档和文件清单，不修改运行代码或UE资产，因此不重复UE构建和运行回归。本机DefaultEngine.ini存在未提交配置改动，保持原样、不暂存、不上传；源码快照按提交中的配置版本记录。
+
 代码整理与GitHub源码交付（2026-10-20，本机验证）:
 - 删除无引用的MyClass空模板；将标牌运行验收原样移至DemoGameModeNameplates.cpp，绘制文件移除按钮、截图、计时器等验收依赖。Gather先收集飞机编号，再单次遍历已生成单位，减少每帧逐架FindUnit查找；未引入跨重载缓存，不改变机型、粉红色文字、避让、选中及预览行为。备份在Saved/Cleanup/Before。
 - Qwen服务清理CATIA身份、零件提示及旧completion编号；保持模型推理和协议路由。SetupPortable在-SkipQwen时不再强制要求模型目录，仍检查UE和完整项目资源；无SkipQwen时继续检查本地模型。

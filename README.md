@@ -60,4 +60,6 @@ python .\VerifyPackage.py --manifest RepositoryManifest.json
 
 ## 资源与许可
 
-本仓库按私有项目托管，尚未对整个工程授予开源许可。机场、飞机和其他导入素材的再分发授权尚未核实；第三方资源与 Qwen 来源见 [THIRD_PARTY](THIRD_PARTY.md)。完整迁移包与 GitHub 源码交付的区别见 [交付说明](docs/GITHUB.md#仓库与完整迁移包)。
+项目原创 C++ 代码、Python/PowerShell 脚本和原创文档采用 [MIT License](LICENSE)。
+
+MIT 许可不适用于 `TacticalDemo/Content` 中的地图、飞机模型、材质、贴图、FBX 等美术资源，也不适用于 Unreal Engine、Qwen 模型及其他第三方组件。这些内容仍由原权利人持有权利，原始许可和再分发授权记录尚待补齐；复用或再分发前请核实对应许可。详细来源与许可范围见 [THIRD_PARTY](THIRD_PARTY.md)，完整迁移包与 GitHub 源码交付的区别见 [交付说明](docs/GITHUB.md#仓库与完整迁移包)。

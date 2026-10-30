@@ -25,7 +25,7 @@ for directory, suffixes in (("", (".md", ".py")), ("TacticalDemo", (".md", ".cmd
                             ("QwenRuntime", (".py", ".txt"))):
     files.update(file for file in (root / directory).iterdir() if file.is_file() and file.suffix.lower() in suffixes)
 files.update(root / name for name in ("LocalPaths.example.json", "FILE_MANIFEST.json", "TacticalDemo/.vsconfig", "TacticalDemo/.gitignore"))
-files.update(root / name for name in (".gitignore", ".gitattributes", "RepositoryManifest.json") if (root / name).is_file())
+files.update(root / name for name in (".gitignore", ".gitattributes", "RepositoryManifest.json", "LICENSE") if (root / name).is_file())
 records = []
 for file in sorted(files):
     digest = hashlib.sha256()

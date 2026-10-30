@@ -19,13 +19,18 @@
     },
     {
       "path": "CreateCurrentManifest.py",
-      "bytes": 2423,
-      "sha256": "4e75441210d5f1f84295ca3dce3ccae9fc1e298ae549a6d2b15fff9bd838de3a"
+      "bytes": 2434,
+      "sha256": "d838bb0de6649b67c00f18f3f3a579efc48e68d394779b814d744c80563106ea"
     },
     {
       "path": "CreateRepositoryManifest.py",
       "bytes": 1384,
       "sha256": "c7fd7868de739376673f08195f88a7942775fca0980c23952bfeedbc446efb84"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "f47216bcd8a6d11955b5d539df11451750b001b47453ba4ac4bdf87109403e31"
     },
     {
       "path": "LocalPaths.example.json",
@@ -49,8 +54,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 53434,
-      "sha256": "f75bc3e9ce351c45ec4566f2dcd20bb568d236ab625de78a44e838ac53819fc6"
+      "bytes": 54189,
+      "sha256": "d459dbd55d7bd3843f6fdbe4ef2f6e5578d6600e3e67f1c974793cb81bc3dd2f"
     },
     {
       "path": "QwenRuntime/PYTHON_VERSION.txt",
@@ -74,8 +79,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4280,
-      "sha256": "e279c19175e2064bf90684ead90e5b3bd4ebbd4160cc4b2d2f2cb633b6db0935"
+      "bytes": 4559,
+      "sha256": "5fa289e51a7161e952cb49dc7fe308311b0e07f868ed07a2c30bc8b568c37da8"
     },
     {
       "path": "ResourceIndex/AssetIndex.csv",
@@ -104,8 +109,8 @@
     },
     {
       "path": "THIRD_PARTY.md",
-      "bytes": 2319,
-      "sha256": "4fda7b32678e92dba5d4456d9c84bd7533b4de8236e9ca9c4097bb499b9a3a0a"
+      "bytes": 2924,
+      "sha256": "b531690eed692df6ee57f9a17db0936f8c1bd865196a5e1090e6cc876acf0b3e"
     },
     {
       "path": "TacticalDemo/.gitignore",
@@ -3754,8 +3759,8 @@
     },
     {
       "path": "docs/GITHUB.md",
-      "bytes": 5127,
-      "sha256": "eb90109698366844fbe3407a595d5c6cfb51ca6b40bb067007a798ce5ca68e64"
+      "bytes": 5343,
+      "sha256": "1bdbd2982845674dbaa47632f16e3e78fb0058a30abd35d63f0ad62fe49f8def"
     },
     {
       "path": "docs/superpowers/plans/2026-09-23-json-actor-demo.md",

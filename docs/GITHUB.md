@@ -1,6 +1,6 @@
 # GitHub 使用与交付说明
 
-仓库地址：[elninady-andy/TacticalDemo](https://github.com/elninady-andy/TacticalDemo)，按私有仓库托管，需要有访问权限的 GitHub 账号。
+仓库地址：[elninady-andy/TacticalDemo](https://github.com/elninady-andy/TacticalDemo)，为公开仓库，可直接查看和克隆。项目原创代码采用 [MIT License](../LICENSE)，第三方素材的许可范围见 [THIRD_PARTY](../THIRD_PARTY.md)。
 
 ## 克隆与首次构建
 
@@ -70,4 +70,4 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\TacticalDemo\Scripts\S
 
 提交前检查差异，确认没有本机路径、个人方案、模型权重、日志或缓存混入。修改已有 UE 资源应在编辑器内完成，不能直接移动文件破坏包引用。完成必要构建和验证后才有意更新对应交付清单。
 
-私有托管不代表素材可以公开再分发。公开发布前须核实 [第三方资源许可](../THIRD_PARTY.md)，当前不为全工程添加开源许可证。
+MIT 许可仅适用于本项目原创代码、脚本和原创文档。地图、模型、贴图等第三方素材的原始许可和再分发授权仍须单独核实，不能因为仓库公开而将这些内容视为 MIT 授权；详见 [第三方资源许可](../THIRD_PARTY.md)。
